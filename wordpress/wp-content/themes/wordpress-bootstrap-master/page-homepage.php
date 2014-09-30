@@ -5,78 +5,125 @@ Template Name: Homepage
 ?>
 
 <?php get_header(); ?>
-			
-			<div id="content" class="clearfix row">
-			
-				<div id="main" class="col-sm-12 clearfix" role="main">
+</div> <!-- div to kill container -->
 
-					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-					
-					<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article">
-					
-						<header>
+  <div id="mimp-service-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h1><?php bloginfo('title'); ?><small><?php echo get_post_meta($post->ID, 'custom_tagline' , true);?></small></h1>
+          <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+            consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
+            accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+            delenit augue duis dolore te feugait nulla facilisi</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-							<?php 
-								$post_thumbnail_id = get_post_thumbnail_id();
-								$featured_src = wp_get_attachment_image_src( $post_thumbnail_id, 'wpbs-featured-home' );
-							?>
-
-							<div class="jumbotron" style="background-image: url('<?php echo $featured_src[0]; ?>'); background-repeat: no-repeat; background-position: 0 0;">
-				
-								<div class="page-header">
-									<h1><?php bloginfo('title'); ?><small><?php echo get_post_meta($post->ID, 'custom_tagline' , true);?></small></h1>
-								</div>				
-								
+<div id="mimp-search-bar">
+    <div class="container">
+      <div class="row">
+<div class="col-lg-8 col-lg-offset-2 mimp-search-box">
+						<form class="" role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
+							<div class="form-group">
+								<input name="s" id="s" type="text" class="search-query form-control" autocomplete="on" placeholder="<?php _e('Search','wpbootstrap'); ?>" data-provide="typeahead" data-items="4" data-source='<?php echo $typeahead_data; ?>'>
 							</div>
-						
-						</header>
-						
-						<section class="row post_content">
-						
-							<div class="col-sm-8">
-						
-								<?php the_content(); ?>
-								
-							</div>
-							
-							<?php get_sidebar('sidebar2'); // sidebar 2 ?>
-													
-						</section> <!-- end article header -->
-						
-						<footer>
+						</form>
+          </div>
+        <!-- /.col-lg-6 -->
+      </div>
+    </div>
+  </div>
+
+
 			
-							<p class="clearfix"><?php the_tags('<span class="tags">' . __("Tags","wpbootstrap") . ': ', ', ', '</span>'); ?></p>
-							
-						</footer> <!-- end article footer -->
-					
-					</article> <!-- end article -->
-					
-					<?php 
-						// No comments on homepage
-						//comments_template();
-					?>
-					
-					<?php endwhile; ?>	
-					
-					<?php else : ?>
-					
-					<article id="post-not-found">
-					    <header>
-					    	<h1><?php _e("Not Found", "wpbootstrap"); ?></h1>
-					    </header>
-					    <section class="post_content">
-					    	<p><?php _e("Sorry, but the requested resource was not found on this site.", "wpbootstrap"); ?></p>
-					    </section>
-					    <footer>
-					    </footer>
-					</article>
-					
-					<?php endif; ?>
-			
-				</div> <!-- end #main -->
-    
-				<?php //get_sidebar(); // sidebar 1 ?>
-    
-			</div> <!-- end #content -->
+<div id="mimp-nav-blocks">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-3 col-sm-6">
+          <a href="#services">
+            <div class="mimp-branded-block" id="find-us">
+              <h4>Professional Services</h4>
+              <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
+              </footer>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <a href="#services">
+            <div class="mimp-branded-block" id="find-us">
+              <h4>Professional Services</h4>
+              <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
+              </footer>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <a href="#services">
+            <div class="mimp-branded-block" id="find-us">
+              <h4>Professional Services</h4>
+              <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
+              </footer>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <a href="#services">
+            <div class="mimp-branded-block" id="find-us">
+              <h4>Professional Services</h4>
+              <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
+              </footer>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <a href="#services">
+            <div class="mimp-branded-block" id="find-us">
+              <h4>Professional Services</h4>
+              <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
+              </footer>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <a href="#services">
+            <div class="mimp-branded-block" id="find-us">
+              <h4>Professional Services</h4>
+              <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
+              </footer>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <a href="#services">
+            <div class="mimp-branded-block" id="find-us">
+              <h4>Professional Services</h4>
+              <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
+              </footer>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <a href="#services">
+            <div class="mimp-branded-block" id="find-us">
+              <h4>Professional Services</h4>
+              <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
+              </footer>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
 
 <?php get_footer(); ?>

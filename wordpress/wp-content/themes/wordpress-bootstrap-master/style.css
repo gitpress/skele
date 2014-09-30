@@ -11,3 +11,441 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 */
 
 /* HEADS UP: Everything that you will normally find here can be found in the library/less/wp.less */
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+html{
+  font-family: 'Montserrat', sans-serif;
+}
+ 
+body {
+  color: #5a5a5a;
+  padding-top: 70px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  border-width:0 0 2px 0;
+}
+
+.navbar-default {
+  background-color: #fff;
+  font-size:13px;
+}
+
+.navbar-brand{
+  font-size:14px;
+}
+
+.center-block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  border-style: dotted;
+  border-color: #333333;
+}
+ 
+.navbar-logo {
+	padding: 5px;
+	max-width: 250px;
+}
+
+.btn-mimp {
+	border: 2px solid #0091C9;
+}
+
+.btn-mimp:hover {
+	margin-top: 0;
+	border: 2px solid #08688D;
+}
+
+.mimp-sidebar-image {
+  max-width: 100%;
+  margin-top: 15px;
+}
+ 
+/* BRAND COLOURS AND FILLS */
+ 
+.sth-second-brand {
+  background-color: #28B4EB;
+}
+ 
+.sth-third-brand {
+  background-color: #8bcbbd;
+}
+ 
+.sth-alternative-brand {
+  background-color: #EB9D28;
+}
+ 
+/* MIMP BREADCRUMBS */
+ 
+#mimp-breadcrumbs {
+	margin-top: 10px;
+	padding: 0px;
+}
+ 
+#mimp-breadcrumbs li {
+	padding: 0px 5px;
+}
+ 
+#mimp-breadcrumbs .nav > li > a:hover, .nav > li > a:focus {
+background-color: #efefef;
+}
+ 
+#mimp-breadcrumbs .nav-pills > li > a {
+border-radius: 0px;
+}
+ 
+/* MIMP NAV BLOCKS */
+ 
+#mimp-nav-blocks {
+	padding-right: 30px;
+	margin-top: 5px;
+	color: white;
+}
+ 
+#mimp-nav-blocks a {
+	text-decoration: none;
+	color: white;
+}
+ 
+#mimp-nav-blocks footer {
+	text-decoration: none;
+	color: white;
+}
+ 
+/* MIMP FOOTER */
+ 
+#mimp-footer {
+	background-color: #efefef;
+	padding: 40px;
+}
+ 
+ 
+/* MIMP SEARCH BAR */
+ 
+#mimp-search-bar {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+ 
+.mimp-search-box {
+	background-color: rgba(215, 226, 226, 0.55);
+	padding: 15px 15px 0 15px;
+}
+ 
+#mimp-search-bar placeholder {
+	font-style: italic;
+}
+ 
+@media (max-width:1199px){
+		div#mimp-search-bar {
+		margin-top: 0;
+	}
+}
+ 
+/* MIMP CAROUSEL */
+ 
+ 
+#mimp-carousel .nav > li > a {
+	color: white;
+	margin-top: 5px;
+	border-bottom: 2px solid rgba(33, 140, 182, 0.79);
+}
+ 
+#mimp-carousel .nav > li > a:hover {
+	color: #28B4EB;
+}
+ 
+#call-to-action {
+	color: white;
+	margin-top: 5px;
+	border-bottom: 2px solid rgba(218, 138, 37, 0.86) !important;
+}
+ 
+ 
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 10px;
+  margin-top: -20px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  text-align: left;
+}
+ 
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+.carousel .mimp-carousel-header {
+  background-color: #08688D;
+  color: white;
+  padding: 10px;
+}
+
+.carousel .mimp-carousel-paragraph {
+  background-color: white;
+  color: #08688D;
+  text-shadow: none;
+  padding-left: 10px;
+}
+ 
+/* GLOBAL FOOTER */
+
+#global-footer {
+	padding: 15px 0 10px 0;
+	background-color: #0091C9;
+	color: white;
+	border: 0 solid #28B4EB;
+	border-top: 10px solid #28B4EB;
+}
+ 
+.global-styles a {
+	color: #fff;
+	text-decoration: underline;
+}
+ 
+.global-styles ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+ 
+.global-logo {
+	padding: 5px;
+	background-color: white;
+	max-width: 100%;
+}
+ 
+.logo-container {
+	overflow: hidden;
+}
+ 
+#global-footer h2 {
+	color: white;
+	margin-top: 0;
+}
+ 
+#global-footer h3 {
+	color: white;
+}
+ 
+#global-footer h4 {
+	color: white;
+}
+ 
+#policy-footer {
+ 
+}
+ 
+/* Typography */
+.no-margin-header {
+	margin-top: 0px;
+}
+ 
+/* overrides */
+ 
+#global-footer .nav>li>a:hover, .nav>li>a:focus {
+text-decoration: none;
+background-color: #000;
+}
+ 
+#global-footer .nav-pills>li>a {
+ border-radius: 0;
+}
+
+.carousel-caption{
+  max-height: 100%;
+}
+
+.carousel-inner > .item > img {
+  height:300px;
+}
+
+.carousel .item {
+  height:300px;
+}
+
+.carousel {
+  height:300px;
+}
+ 
+/**** *****/
+ 
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+ 
+@media (min-width: 768px) {
+ 
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+ 
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+ 
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************************************
+ * service css
+ * *******************************************/
+
+#mimp-service-header {
+	background-color: #08688D;
+	padding: 50px 0px;
+	color: white;
+  margin-top: -20px;
+  margin-bottom: 15px;
+}
+
+#mimp-service-header h1 {
+  color: white;
+}
+
+#mimp-services h3 {
+	border-bottom: 1px dotted #333333;
+}
+
+.mimp-search-sidebar {
+	margin-top: 60px;
+}
+
+.mimp-service-list {
+	margin-top: 5px;
+	border-bottom: 2px solid rgba(33, 140, 182, 0.79);
+}
+
+.open>.dropdown-menu.mimp-service-dropdown {
+  display: block;
+  overflow: scroll;
+  max-height: 200px;
+  min-width: 100%;
+}
+
+a.sth-second-brand.mimp-service-list {
+	color: white;
+}
+
+a.sth-second-brand.mimp-service-list:hover {
+	color: #0091C9;
+}
+
+.breadcrumb {
+  background-color:white;
+  border:none;
+  padding-left:0px;
+}
+
+button.btn.btn-mimp.dropdown-toggle.form-control {
+color: #0091c9;
+}
+
+.mimp-internal-advert {
+  padding:30px 20px 10px 20px;
+  margin-top: 10px;
+  background-color:#08688D;
+  color: white;
+  font-style: italic;
+}
+
+.mimp-internal-advert h2, .mimp-internal-advert a {
+  color: white;
+}
+
+
+/******* MIMP NAV BLOCKS *************/
+
+.mimp-branded-block h4{
+  color: white;
+  font-size: 150%;
+}
+
+#mimp-nav-blocks .mimp-branded-block {
+  padding: 40px 18px;
+  background-color: #0091C9;
+  margin-bottom: 10px;
+}
+ 
+#mimp-nav-blocks .mimp-branded-block:hover {
+	background-color: #28B4EB;
+}
+
+
+
+/****       MEGA MENU PART ***********/
+
+
+.mega-menu {
+	width: 700px;
+  border-radius: 0;
+  margin-top: 0px;
+	}
+
+.mega-menu ul {
+  padding-left: 4px;
+}
+
+	.mega-menu li {
+		display: inline-block;
+		float: left;
+		padding: 3px 0px;
+		}
+
+		.mega-menu li.mega-menu-column {
+			margin-right: 0;
+			width: 150px;
+			}
+
+			.mega-menu .nav-header {
+			padding: 0 !important;
+			margin-bottom: 10px;
+			display: inline-block;
+			width: 100%;
+			border-bottom: 1px solid #ddd;
+			}
