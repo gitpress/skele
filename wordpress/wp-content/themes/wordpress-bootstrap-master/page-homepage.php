@@ -7,19 +7,80 @@ Template Name: Homepage
 <?php get_header(); ?>
 </div> <!-- div to kill container -->
 
-  <div id="mimp-service-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-          <h1><?php bloginfo('title'); ?><small><?php echo get_post_meta($post->ID, 'custom_tagline' , true);?></small></h1>
-          <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
-            consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
-            accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
-            delenit augue duis dolore te feugait nulla facilisi</p>
-        </div>
-      </div>
-    </div>
-  </div>
+ <!-- CAROUSELLA -->
+  <div id="mimp-carousel">
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+              <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+              <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="item">
+                <img src="http://lorempixel.com/1500/300/abstract/1"
+                alt="First slide">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1 class="mimp-carousel-header">Example headline</h1>
+                    <p class="mimp-carousel-paragraph">Note: If you're viewing this page via a <code>file://</code> URL,
+                      the "next" and "previous" Glyphicon buttons on the left and
+                      right might not load/display properly due to web browser security
+                      rules.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="http://lorempixel.com/1500/300/abstract/2"
+                alt="Second slide">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1 class="mimp-carousel-header">Medical Physics headline</h1>
+                    <p class="mimp-carousel-paragraph">Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                      Donec id elit non mi porta gravida at eget metus. Nullam id
+                      dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item active">
+                <img src="http://lorempixel.com/1500/300/abstract/3"
+                alt="Third slide">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1 class="mimp-carousel-header">Medical Imaging headline</h1>
+                    <p class="mimp-carousel-paragraph">Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                      Donec id elit non mi porta gravida at eget metus. Nullam id
+                      dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="http://lorempixel.com/1500/300/abstract/4"
+                alt="Fourth slide">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1 class="mimp-carousel-header">Training and Consultation</h1>
+                    <p class="mimp-carousel-paragraph">Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                      Donec id elit non mi porta gravida at eget metus. Nullam id
+                      dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div>
 
 <div id="mimp-search-bar">
     <div class="container">
