@@ -71,23 +71,13 @@
           </p>
         </div>
 
-        <div class="col-md-4 col-sm-4 col-xs-6" data-twttr-id="twttr-sandbox-0">
-          <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-timeline twitter-timeline-rendered" style="width: 1px; height: 0px; border: none; position: absolute; visibility: hidden;"></iframe><a class="twitter-timeline" href="https://twitter.com/SheffieldHosp" data-widget-id="496235812489416705" height="250" data-twttr-rendered="true">Tweets by @SheffieldHosp</a>
-          <script id="twitter-wjs" src="https://platform.twitter.com/widgets.js"></script><script>
-            ! function(d, s, id) {
-              var js, fjs = d.getElementsByTagName(s)[0],
-                p = /^http:/.test(d.location) ? 'http' : 'https';
-              if (!d.getElementById(id)) {
-                js = d.createElement(s);
-                js.id = id;
-                js.src = p + "://platform.twitter.com/widgets.js";
-                fjs.parentNode.insertBefore(js, fjs);
-              }
-            }(document, "script", "twitter-wjs");
-          </script>
+        <div class="col-md-4 col-sm-4 col-xs-6">
+<a class="twitter-timeline" href="https://twitter.com/SheffieldHosp" data-widget-id="496235812489416705">Tweets by @SheffieldHosp</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 
         </div>
+        
         <div class="col-md-4 col-sm-4 col-xs-6 logo-container">
           <img class="global-logo" src="http://sheffieldconferences.org/wp-content/uploads/2014/08/logosth.png">
 
