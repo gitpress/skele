@@ -1,4 +1,18 @@
 <?php get_header(); ?>
+
+</div> <!-- div to kill container -->
+
+  <div id="mimp-service-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h1><?php the_title(); ?><small><?php echo get_post_meta($post->ID, 'custom_tagline' , true);?></small></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
 			
 			<div id="content" class="clearfix row">
 			
@@ -7,12 +21,6 @@
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
 					<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
-						
-						<header>
-							
-							<div class="page-header"><h1 class="page-title" itemprop="headline"><?php the_title(); ?></h1></div>
-						
-						</header> <!-- end article header -->
 					
 						<section class="post_content clearfix" itemprop="articleBody">
 							<?php the_content(); ?>
@@ -27,7 +35,7 @@
 					
 					</article> <!-- end article -->
 					
-					<?php comments_template('',true); ?>
+					
 					
 					<?php endwhile; ?>		
 					

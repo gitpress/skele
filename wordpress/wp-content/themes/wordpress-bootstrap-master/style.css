@@ -320,9 +320,13 @@ background-color: #000;
   }
 }
 
+/*
+ * WORDPRESS OVERRIDES
+ * */
 
-
-
+#main article{
+  border-bottom:none;
+}
 
 
 
