@@ -9,6 +9,8 @@ Template Name: Homepage
 
  <!-- CAROUSELLA -->
   <div id="mimp-carousel">
+    
+
               <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -81,6 +83,7 @@ Template Name: Homepage
             <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span>
             </a>
           </div>
+   </div>
 
 <div id="mimp-search-bar">
     <div class="container">
