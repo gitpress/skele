@@ -21,7 +21,7 @@ Template Name: Homepage
             </ol>
             <div class="carousel-inner">
               <div class="item">
-                <img src="http://lorempixel.com/1500/300/abstract/1"
+                <img src="http://harris-credit.codio.io:3000/wordpress/wp-content/uploads/2014/10/blue.png"
                 alt="First slide">
                 <div class="container">
                   <div class="carousel-caption">
@@ -36,7 +36,7 @@ Template Name: Homepage
                 </div>
               </div>
               <div class="item">
-                <img src="http://lorempixel.com/1500/300/abstract/2"
+                <img src="http://harris-credit.codio.io:3000/wordpress/wp-content/uploads/2014/10/blue.png"
                 alt="Second slide">
                 <div class="container">
                   <div class="carousel-caption">
@@ -50,7 +50,7 @@ Template Name: Homepage
                 </div>
               </div>
               <div class="item active">
-                <img src="http://lorempixel.com/1500/300/abstract/3"
+                <img src="http://harris-credit.codio.io:3000/wordpress/wp-content/uploads/2014/10/blue.png"
                 alt="Third slide">
                 <div class="container">
                   <div class="carousel-caption">
@@ -64,7 +64,7 @@ Template Name: Homepage
                 </div>
               </div>
               <div class="item">
-                <img src="http://lorempixel.com/1500/300/abstract/4"
+                <img src="http://harris-credit.codio.io:3000/wordpress/wp-content/uploads/2014/10/blue.png"
                 alt="Fourth slide">
                 <div class="container">
                   <div class="carousel-caption">

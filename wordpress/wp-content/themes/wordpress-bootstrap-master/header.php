@@ -15,6 +15,7 @@
 
 		<!-- wordpress head functions -->
 		<?php wp_head(); ?>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		<!-- end of wordpress head -->
 		<!-- IE8 fallback moved below head to work properly. Added respond as well. Tested to work. -->
 			<!-- media-queries.js (fallback) -->
