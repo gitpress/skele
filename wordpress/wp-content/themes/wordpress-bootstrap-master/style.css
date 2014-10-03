@@ -419,37 +419,3 @@ color: #0091c9;
 #mimp-nav-blocks .mimp-branded-block:hover {
 	background-color: #28B4EB;
 }
-
-
-
-/****       MEGA MENU PART ***********/
-
-
-.mega-menu {
-	width: 700px;
-  border-radius: 0;
-  margin-top: 0px;
-	}
-
-.mega-menu ul {
-  padding-left: 4px;
-}
-
-	.mega-menu li {
-		display: inline-block;
-		float: left;
-		padding: 3px 0px;
-		}
-
-		.mega-menu li.mega-menu-column {
-			margin-right: 0;
-			width: 150px;
-			}
-
-			.mega-menu .nav-header {
-			padding: 0 !important;
-			margin-bottom: 10px;
-			display: inline-block;
-			width: 100%;
-			border-bottom: 1px solid #ddd;
-			}
