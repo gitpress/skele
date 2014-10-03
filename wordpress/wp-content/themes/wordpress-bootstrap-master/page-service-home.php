@@ -29,30 +29,201 @@ Template Name: Service home page
             <li><a href="#">Home</a>
             </li>
             <li class="active">Services</li>
-          </ol>
-
-          <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
-            consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
-            accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
-            delenit augue duis dolore te feugait nulla facilisi.</p>
+          </ol>        
           
+          <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
           
 					<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article">
 					
 						<section class="post_content">
 							<?php the_content(); ?>
 						</section> <!-- end article section -->
-						
-						<footer>
-							<p class="clearfix"><?php the_tags('<span class="tags">' . __("Tags","wpbootstrap") . ': ', ', ', '</span>'); ?></p>
-						</footer> <!-- end article footer -->
-					
 					</article> <!-- end article -->
+          
+          <?php endwhile; ?>	
+          <?php endif; ?>
+          
+          
+           <div class="row">
+            <div class="col-md-6">
+              <h3>Medical Imaging</h3>
+              <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                vero eros et accumsan et iusto odio dignissim qui blandit praesent
+                luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>                          
+              <div class="btn-group">
+                <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+                  Services <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Imaging Services</a></li>
+                  <li><a href="#">Radiology</a></li>
+                  <li><a href="#">Magnetic Resonance</a></li>
+                  <li><a href="#">Computed Tomography</a></li>
+                  <li><a href="#">PET-CT</a></li>
+                  <li><a href="#">Breast Imaging</a></li>
+                  <li><a href="#">Nuclear Medicine</a></li>
+                  <li><a href="#">Fluoroscopy</a></li>
+                  <li><a href="#">Angrography</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Medical Imaging Department</a></li>
+                </ul>
+              </div>                  
+              <a href="#" class="btn btn-mimp">Contact Details</a>
+            </div>
+            
+            
+            
+            <div class="col-md-6 image-test">
+              <h3>Scientific &amp; Technical Services</h3>
+              <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                vero eros et accumsan et iusto odio dignissim qui blandit praesent
+                luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+             <div class="btn-group">
+                <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+                  Services <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Medical Physics</a></li>
+                  <li><a href="#">Clinical Engineering</a></li>
+                  <li><a href="#">Radiation Protection Assurance</a></li>
+                  <li><a href="#">Audiological Science</a></li>
+                  <li><a href="#">Scientific Computing</a></li>
+                  <li><a href="#">Radiosurgery Physics</a></li>
+                  <li><a href="#">Radiotherapy</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Medical Physics Department</a></li>
+                  <li><a href="#">Clinical Engineering Department</a></li>
+                </ul>
+              </div>     
+              <a href="#" class="btn btn-mimp">Contact Details</a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <h3>Commerical Services</h3>
+              <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                vero eros et accumsan et iusto odio dignissim qui blandit praesent
+                luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+             <div class="btn-group">
+                <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+                  Services <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Radiation Protection Assurance</a></li>
+                  <li><a href="#">Medical Workshop Services</a></li>
+                  <li><a href="#">Medical Equipment Maintenance</a></li>
+                  <li><a href="#">Medical Equipment-</a></li>
+                  <li><a href="#">Hearing Aids</a></li>
+                  <li><a href="#">Clinical Engineering</a></li>
+                  <li><a href="#">Medical Device Innovation</a></li>
+                  <li><a href="#">On-site Consultation</a></li>
+                  <li><a href="#">Training and Development</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Commercial Services Information</a></li>
+                </ul>
+              </div>   
+              <a href="#" class="btn btn-mimp">Contact Details</a>
+            </div>
+            
+            <div class="col-md-6">
+              <h3>Speciality Services</h3>
+              <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                vero eros et accumsan et iusto odio dignissim qui blandit praesent
+                luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+              <a href="#" class="btn btn-warning">Information</a>
+              <a href="#" class="btn btn-mimp">Contact Details</a>
+            </div>
+          </div>
+
+          <hr>
+          <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+            consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
+            accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+            delenit augue duis dolore te feugait nulla facilisi call <a href="tel:01149999999">0114-9999999</a> or
+            email <a href="mailto:mimp@mimp.co.uk">our service manager</a>
+          </p>
+          <div class="btn-group btn-input btn-block clearfix">
+            <button type="button" class="btn btn-mimp dropdown-toggle form-control" data-toggle="dropdown">
+              <span data-bind="label">Service Directory</span>  <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu mimp-service-dropdown" role="menu">
+                  <li><a href="#">Radiation Protection Assurance</a></li>
+                  <li><a href="#">Medical Workshop Services</a></li>
+                  <li><a href="#">Medical Equipment Maintenance</a></li>
+                  <li><a href="#">Medical Equipment-</a></li>
+                  <li><a href="#">Hearing Aids</a></li>
+                  <li><a href="#">Clinical Engineering</a></li>
+                  <li><a href="#">Medical Device Innovation</a></li>
+                  <li><a href="#">On-site Consultation</a></li>
+                  <li><a href="#">Training and Development</a></li>
+                  <li><a href="#">Medical Physics</a></li>
+                  <li><a href="#">Clinical Engineering</a></li>
+                  <li><a href="#">Radiation Protection Assurance</a></li>
+                  <li><a href="#">Audiological Science</a></li>
+                  <li><a href="#">Scientific Computing</a></li>
+                  <li><a href="#">Radiosurgery Physics</a></li>
+                  <li><a href="#">Radiotherapy</a></li>
+                  <li><a href="#">Imaging Services</a></li>
+                  <li><a href="#">Radiology</a></li>
+                  <li><a href="#">Magnetic Resonance</a></li>
+                  <li><a href="#">Computed Tomography</a></li>
+                  <li><a href="#">PET-CT</a></li>
+                  <li><a href="#">Breast Imaging</a></li>
+                  <li><a href="#">Nuclear Medicine</a></li>
+                  <li><a href="#">Fluoroscopy</a></li>
+                  <li><a href="#">Angrography</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Commercial Services Information</a></li>
+                  <li><a href="#">Medical Physics Department</a></li>
+                  <li><a href="#">Clinical Engineering Department</a></li>
+                  <li><a href="#">Medical Imaging Department</a></li>
+            </ul>
+          </div>
+          
+          <div class="mimp-internal-advert">
+            <a href="#">
+              <h2>Looking for training and career development?</h2>
+              <p>See our dedicated careers section here</p>
+            </a>
+          </div>
+
+          
           </div> <!-- end #main -->
         
 				<?php get_sidebar(); // sidebar 1 ?>
     
 			</div> <!-- end #content -->
+    
+          <footer id="mimp-service-strenghts" class="text-center">
+          <div class="row">
+            <div class="col-sm-4">
+              <i class="fa fa-certificate fa-5x"></i>
+              <h4>Approved Service</h4>
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+            </div>
+            
+            <div class="col-sm-4">
+              <i class="fa fa-users fa-5x"></i>
+              <h4>Approved Service</h4>
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+            </div>
+            
+            <div class="col-sm-4">
+              <i class="fa fa-check-circle fa-5x"></i>
+              <h4>Approved Service</h4>
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
+            </div>
+          </div>
+    </footer>
+    
+    
     </div>
+
+
 
 <?php get_footer(); ?>

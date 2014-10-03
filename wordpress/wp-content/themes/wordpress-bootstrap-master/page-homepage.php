@@ -109,7 +109,7 @@ Template Name: Homepage
         <div class="col-md-3 col-sm-4">
           <a href="#services">
             <div class="mimp-branded-block" id="find-us">
-              <h4>Professional Services</h4>
+              <h4>Our Departments</h4>
               <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
               </footer>
             </div>
@@ -129,7 +129,7 @@ Template Name: Homepage
         <div class="col-md-3 col-sm-4">
           <a href="#services">
             <div class="mimp-branded-block" id="find-us">
-              <h4>Professional Services</h4>
+              <h4>Training &amp; Careers</h4>
               <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
               </footer>
             </div>
@@ -139,7 +139,7 @@ Template Name: Homepage
         <div class="col-md-3 col-sm-6">
           <a href="#services">
             <div class="mimp-branded-block" id="find-us">
-              <h4>Professional Services</h4>
+              <h4>Patient Information</h4>
               <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
               </footer>
             </div>
@@ -149,7 +149,7 @@ Template Name: Homepage
         <div class="col-md-3 col-sm-6">
           <a href="#services">
             <div class="mimp-branded-block" id="find-us">
-              <h4>Professional Services</h4>
+              <h4>A-Z of Services</h4>
               <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
               </footer>
             </div>
@@ -159,7 +159,7 @@ Template Name: Homepage
         <div class="col-md-3 col-sm-4">
           <a href="#services">
             <div class="mimp-branded-block" id="find-us">
-              <h4>Professional Services</h4>
+              <h4>Referral Information</h4>
               <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
               </footer>
             </div>
@@ -169,7 +169,7 @@ Template Name: Homepage
         <div class="col-md-3 col-sm-4">
           <a href="#services">
             <div class="mimp-branded-block" id="find-us">
-              <h4>Professional Services</h4>
+              <h4>On-site Consultation</h4>
               <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
               </footer>
             </div>
@@ -179,7 +179,7 @@ Template Name: Homepage
         <div class="col-md-3 col-sm-4">
           <a href="#services">
             <div class="mimp-branded-block" id="find-us">
-              <h4>Professional Services</h4>
+              <h4>News &amp; Information</h4>
               <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
               </footer>
             </div>
