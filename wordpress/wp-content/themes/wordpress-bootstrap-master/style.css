@@ -426,9 +426,6 @@ article blockquote{
 }
 
 
-
-
-
 /**********************************************
  * service css
  * *******************************************/
@@ -512,4 +509,20 @@ color: #0091c9;
  
 #mimp-nav-blocks .mimp-branded-block:hover {
 	background-color: #28B4EB;
+}
+
+/* *****************************
+*  FONT AWESOME OVERRIDES
+*********************************/
+
+.fa{
+  color: #0091C9;
+}
+
+.gold{
+  color: goldenrod;
+}
+
+.silver{
+  color:silver;
 }

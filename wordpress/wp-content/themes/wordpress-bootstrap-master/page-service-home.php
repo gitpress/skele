@@ -202,7 +202,9 @@ Template Name: Service home page
           <footer id="mimp-service-strenghts" class="text-center">
           <div class="row">
             <div class="col-sm-4">
-              <i class="fa fa-certificate fa-5x"></i>
+              <i class="fa fa-lock fa-3x"></i>
+              <i class="fa fa-lock fa-5x"></i>
+              <i class="fa fa-lock fa-3x"></i>
               <h4>Approved Service</h4>
               <p class="text-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
             </div>
