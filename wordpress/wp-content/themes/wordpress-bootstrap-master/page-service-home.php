@@ -37,11 +37,11 @@ Template Name: Service home page
 			
 				<div id="main" class="col col-sm-8 clearfix" role="main">
           
-          <ol class="breadcrumb">
-            <li><a href="#">Home</a>
-            </li>
-            <li class="active">Services</li>
-          </ol>        
+        <ol class="breadcrumb hidden-xs">
+          <?php if ( function_exists('yoast_breadcrumb') ) {
+                    yoast_breadcrumb('<li id="breadcrumbs">','</li>');
+                    } ?>
+        </ol>      
           
           <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
           
