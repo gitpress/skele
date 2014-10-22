@@ -495,7 +495,8 @@ color: #0091c9;
 
 #mimp-service-contact-form input.pushbutton-wide {
   background-color: #DAA520;
-  border: 2px solid #DAA520;
+  border: 0px;
+  border-bottom: 5px solid #CF9F2B;
   width: 100%;
   margin-top: 5px;
 }
