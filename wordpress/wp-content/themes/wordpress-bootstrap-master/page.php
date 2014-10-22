@@ -6,13 +6,15 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8">
-          <h1><?php the_title(); ?><small><?php echo get_post_meta($post->ID, 'custom_tagline' , true);?></small></h1>
+          <h1><?php the_title(); ?></h1>
+          <?php echo '<p class="lead">' . get_post_meta($post->ID, 'page_desc', true) . '</p>'; ?>
         </div>
       </div>
     </div>
   </div>
 
 <div class="container">
+  
 			
 			<div id="content" class="clearfix row">
 			
