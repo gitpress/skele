@@ -22,7 +22,7 @@ Template Name: Service home page
     </div>
   </div>
 
-        <div id="mimp-service-unit" class="mimp-service-unit">
+        <div id="mimp-service-first" class="mimp-service-unit">
           <div class="container">
             <div class="col-md-10 col-md-offset-1">
             <div class="row">
