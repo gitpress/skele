@@ -22,18 +22,97 @@ Template Name: Service home page
     </div>
   </div>
 
+        <div id="mimp-service-unit" class="mimp-service-unit">
+          <div class="container">
+            <div class="col-md-10 col-md-offset-1">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <h1 class="section-header">A World Class Service</h1>
+                <hr class="brand-hr">
+              </div>
+            </div> 
+            <div class="row">
+              <div class="col-md-12">
+                <h2>With four unparalleled departments, we are sure to have the medical imaging and medical physics service you need</h2>
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg" class="img-responsive">
+                  </div>
+                  <div class="col-md-8">
+                            <p class="">From prototyping and building innovative medical devices, imaging and cutting-edge clinical services to radiation protection. From prototyping and building innovative medical devices, imaging and cutting-edge clinical services to radiation protection. From prototyping and building innovative medical devices, imaging and cutting-edge clinical services to radiation protection</p>
+                            <div class="btn-group btn-input btn-block clearfix btn-service">
+                              <button type="button" class="btn btn-mimp dropdown-toggle form-control" data-toggle="dropdown">
+                                <span data-bind="label">A-Z Services</span>  <span class="caret"></span>
+                              </button>
+                              <ul class="dropdown-menu mimp-service-dropdown" role="menu">
+                                    <li><a href="#">Radiation Protection Assurance</a></li>
+                                    <li><a href="#">Medical Workshop Services</a></li>
+                                    <li><a href="#">Medical Equipment Maintenance</a></li>
+                                    <li><a href="#">Medical Equipment-</a></li>
+                                    <li><a href="#">Hearing Aids</a></li>
+                                    <li><a href="#">Clinical Engineering</a></li>
+                                    <li><a href="#">Medical Device Innovation</a></li>
+                                    <li><a href="#">On-site Consultation</a></li>
+                                    <li><a href="#">Training and Development</a></li>
+                                    <li><a href="#">Medical Physics</a></li>
+                                    <li><a href="#">Clinical Engineering</a></li>
+                                    <li><a href="#">Radiation Protection Assurance</a></li>
+                                    <li><a href="#">Audiological Science</a></li>
+                                    <li><a href="#">Scientific Computing</a></li>
+                                    <li><a href="#">Radiosurgery Physics</a></li>
+                                    <li><a href="#">Radiotherapy</a></li>
+                                    <li><a href="#">Imaging Services</a></li>
+                                    <li><a href="#">Radiology</a></li>
+                                    <li><a href="#">Magnetic Resonance</a></li>
+                                    <li><a href="#">Computed Tomography</a></li>
+                                    <li><a href="#">PET-CT</a></li>
+                                    <li><a href="#">Breast Imaging</a></li>
+                                    <li><a href="#">Nuclear Medicine</a></li>
+                                    <li><a href="#">Fluoroscopy</a></li>
+                                    <li><a href="#">Angrography</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Commercial Services Information</a></li>
+                                    <li><a href="#">Medical Physics Department</a></li>
+                                    <li><a href="#">Clinical Engineering Department</a></li>
+                                    <li><a href="#">Medical Imaging Department</a></li>
+                              </ul>
+                            </div>
+                    
+                                                <div class="btn-group btn-input btn-block clearfix btn-service">
+                              <button type="button" class="btn btn-mimp dropdown-toggle form-control" data-toggle="dropdown">
+                                <span data-bind="label">Departmental Contacts</span>  <span class="caret"></span>
+                              </button>
+                              <ul class="dropdown-menu mimp-service-dropdown" role="menu">
+                                    <li><a href="#">Commercial Services Information</a></li>
+                                    <li><a href="#">Medical Physics Department</a></li>
+                                    <li><a href="#">Clinical Engineering Department</a></li>
+                                    <li><a href="#">Medical Imaging Department</a></li>
+                              </ul>
+                            </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+
+
 
 
   <div class="container">
 			<div id="content" class="clearfix row">
 			
-				<div id="main" class="col col-sm-8 clearfix" role="main">
+				<div id="main" class="col col-md-10 col-md-offset-1 col-sm-10 clearfix" role="main">
           
         <ol class="breadcrumb hidden-xs">
           <?php if ( function_exists('yoast_breadcrumb') ) {
                     yoast_breadcrumb('<li id="breadcrumbs">','</li>');
                     } ?>
         </ol>      
+          
+
+          
           
           <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
           

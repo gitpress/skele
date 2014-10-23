@@ -175,6 +175,7 @@ border-radius: 0px;
   height: 500px;
   margin-bottom: 10px;
   margin-top: -20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -423,6 +424,8 @@ textarea {
 article blockquote{
   background-color: #0091C9;
   color: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);
+  border-left: 0px;
 }
 
 
@@ -519,22 +522,45 @@ color: #0091c9;
   margin-top: 25px;
 }
 
+h1.section-header {
+  margin-left: 15px;
+  color: goldenrod;
+  font-weight: 600;
+  text-align: center;
+}
+
+hr.brand-hr {
+  border-style: solid;
+  border-color: goldenrod;
+  border-width: 2px;
+  margin-top: 5px;
+  max-width: 80%;
+}
+
+.btn-service {
+  max-width: 45%;
+  margin: 5px;
+}
+
 
 /******* MIMP NAV BLOCKS *************/
 
 .mimp-branded-block h4{
   color: white;
   font-size: 150%;
+  
 }
 
 #mimp-nav-blocks .mimp-branded-block {
   padding: 40px 18px;
   background-color: #0091C9;
   margin-bottom: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);
 }
  
 #mimp-nav-blocks .mimp-branded-block:hover {
 	background-color: #28B4EB;
+  box-shadow: none;
 }
 
 /* *****************************
