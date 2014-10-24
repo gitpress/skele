@@ -184,7 +184,6 @@ Template Name: Service home page
           
           </div> <!-- end #main -->
         
-				<?php get_sidebar(); // sidebar 1 ?>
     
 			</div> <!-- end #content -->
     
