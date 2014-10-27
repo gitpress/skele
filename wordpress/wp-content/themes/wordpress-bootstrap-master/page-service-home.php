@@ -98,6 +98,48 @@ Template Name: Service home page
        </div>
 
 
+<script>jQuery(document).ready(function() {
+  jQuery("table.sieve").sieve();
+}); </script>
+
+
+<div id="mimp-service-sieve">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+
+
+          <!-- Table -->
+          <table class="table sieve">
+            <thead>
+              <tr>
+                <th>Commercial Services</th>
+                <th>Imaging Services</th>
+                <th>Scientific Services</th>
+                <th>Departments</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Zachary Taylor</td><td>Barboursville, Virginia</td><td>Richard Nixon</td><td>Yorba Linda, California</td></tr>
+              <tr><td>Warren G. Harding</td><td>Blooming Grove, Ohio</td><td>Rutherford B. Hayes</td><td>Delaware, Ohio</td></tr>
+              <tr><td>John Quincy Adams</td><td>Braintree, Massachusetts</td><td>Rutherford B. Hayes</td><td>Delaware, Ohio</td></tr>
+              <tr><td>John F. Kennedy</td><td>Brookline, Massachusetts</td><td>Rutherford B. Hayes</td><td>Delaware, Ohio</td></tr>
+              <tr><td>Grover Cleveland</td><td>Caldwell, New Jersey</td><td>Rutherford B. Hayes</td><td>Delaware, Ohio</td></tr>
+            </tbody>
+          </table>
+
+        
+      </div>
+      
+      
+      
+        
+      
+    </div>
+  </div>
+</div>
+
+
 
 
   <div class="container">

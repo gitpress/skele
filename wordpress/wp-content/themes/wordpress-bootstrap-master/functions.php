@@ -29,6 +29,16 @@ add_filter('admin_footer_text', 'wp_bootstrap_custom_admin_footer');
 // Set content width
 if ( ! isset( $content_width ) ) $content_width = 580;
 
+function wptuts_scripts_with_jquery()
+{
+    // Register the script like this for a theme:
+    wp_register_script( 'sieve', get_template_directory_uri() . '/library/js/jquery.sieve.min.js', array( 'jquery' ) );
+ 
+    // For either a plugin or a theme, you can then enqueue the script:
+    wp_enqueue_script( 'sieve' );
+}
+add_action( 'wp_enqueue_scripts', 'wptuts_scripts_with_jquery' );
+
 /************* THUMBNAIL SIZE OPTIONS *************/
 
 // Thumbnail sizes
