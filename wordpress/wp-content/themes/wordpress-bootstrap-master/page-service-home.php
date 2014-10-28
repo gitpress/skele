@@ -106,10 +106,11 @@ Template Name: Service home page
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
         
-        <script>jQuery(document).ready(function() {
-                   jQuery("table.sieve").sieve();
-                   jQuery("#mimp-service-sieve > div > div > div > div").addClass('this-class')
-                  }); 
+        <script>
+          jQuery(document).ready(function() {
+            jQuery("table.sieve").sieve();
+            jQuery("#mimp-service-sieve > div > div > div > div").addClass('this-class');
+            }); 
         </script>
 
           <!-- Table -->
@@ -130,7 +131,6 @@ Template Name: Service home page
               <tr><td>Grover Cleveland</td><td>Caldwell, New Jersey</td><td>Rutherford B. Hayes</td><td>Delaware, Ohio</td></tr>
             </tbody>
           </table>
-
         
       </div>
     </div>
