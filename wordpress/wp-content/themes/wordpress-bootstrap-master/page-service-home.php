@@ -98,15 +98,19 @@ Template Name: Service home page
        </div>
 
 
-<script>jQuery(document).ready(function() {
-  jQuery("table.sieve").sieve();
-}); </script>
+
 
 
 <div id="mimp-service-sieve">
   <div class="container">
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
+        
+        <script>jQuery(document).ready(function() {
+                   jQuery("table.sieve").sieve();
+                   jQuery("#mimp-service-sieve > div > div > div > div").addClass('this-class')
+                  }); 
+        </script>
 
           <!-- Table -->
           <table class="table sieve">
