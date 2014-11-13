@@ -208,7 +208,7 @@ Template Name: Service home page
         <div class="col-md-6">
           <div class="row">
             <div class="col-md-10">
-              <h1 class="section-header">Patient Services</h1>
+              <h1 class="section-header">Commercial Services</h1>
               <hr class="brand-hr">
             </div>
           </div>
