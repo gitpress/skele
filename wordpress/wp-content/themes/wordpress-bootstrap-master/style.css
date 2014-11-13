@@ -522,6 +522,18 @@ color: #0091c9;
   margin-top: 25px;
 }
 
+#A-Z label {
+  width: 100%;
+}
+
+#A-Z input[type="text"] {
+  width: 100%;
+}
+
+
+
+
+
 h1.section-header {
   margin-left: 15px;
   color: goldenrod;
@@ -553,6 +565,10 @@ hr.brand-hr {
   margin-top: 15px;
   margin-bottom: 15px;
   
+}
+
+#mimp-service-buttons {
+  margin-top: 35px;
 }
 
 

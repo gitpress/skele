@@ -4,6 +4,9 @@ Template Name: Service individual page MARK II
 */
 ?>
 
+<?php get_header(); ?>
+</div> <!-- div to kill container -->
+
   <div id="mimp-service-header">
     <div class="container">
       <div class="row">
@@ -17,3 +20,7 @@ Template Name: Service individual page MARK II
       </div>
     </div>
   </div>
+
+
+
+<?php get_footer(); ?>
