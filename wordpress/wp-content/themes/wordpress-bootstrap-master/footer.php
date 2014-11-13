@@ -6,19 +6,19 @@
     <div class="row">
       <div class="col-md-12">
         <ul class="nav nav-pills text-center">
-          <li><a href="#">Patient Information</a>
+          <li><a href="<?php echo get_site_url() . "/patient-information/"; ?>">Patient Information</a>
           </li>
-          <li><a href="#">Our Departments</a>
+          <li><a href="<?php echo get_site_url() . "/departments/"; ?>">Our Departments</a>
           </li>
-          <li><a href="#">Contact Us</a>
+          <li><a href="<?php echo get_site_url() . "/contact/"; ?>">Contact Us</a>
           </li>
-          <li><a href="#">Find a Service</a>
+          <li><a href="<?php echo get_site_url() . "/services/#A-Z"; ?>">Find a Service</a>
           </li>
-          <li><a href="#">How to find us</a>
+          <li><a href="<?php echo get_site_url() . "/patient-information/#find-us"; ?>">How to find us</a>
           </li>
-          <li><a href="#">Referral Information</a>
+          <li><a href="<?php echo get_site_url() . "/patient-information/#referrals"; ?>">Referral Information</a>
           </li>
-          <li><a href="#">Training and Courses</a>
+          <li><a href="<?php echo get_site_url() . "/training/"; ?>">Training and Courses</a>
           </li>
         </ul>
       </div>
@@ -47,9 +47,6 @@
   </div>
 </footer>
 <!-- end footer -->
-
-
-
 
 
 <footer id="global-footer">

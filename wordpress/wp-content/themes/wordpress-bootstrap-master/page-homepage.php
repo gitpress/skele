@@ -21,7 +21,7 @@ Template Name: Homepage
             </ol>
             <div class="carousel-inner">
               <div class="item">
-                <img src="http://harris-credit.codio.io:3000/wordpress/wp-content/uploads/2014/10/blue.png"
+                <img src="<?php echo get_site_url() . "/wp-content/uploads/2014/10/blue.png"; ?>"
                 alt="First slide">
                 <div class="container">
                   <div class="carousel-caption">
@@ -36,7 +36,7 @@ Template Name: Homepage
                 </div>
               </div>
               <div class="item">
-                <img src="http://harris-credit.codio.io:3000/wordpress/wp-content/uploads/2014/10/blue.png"
+                <img src="<?php echo get_site_url() . "/wp-content/uploads/2014/10/blue.png"; ?>"
                 alt="Second slide">
                 <div class="container">
                   <div class="carousel-caption">
@@ -50,7 +50,7 @@ Template Name: Homepage
                 </div>
               </div>
               <div class="item active">
-                <img src="http://harris-credit.codio.io:3000/wordpress/wp-content/uploads/2014/10/blue.png"
+                <img src="<?php echo get_site_url() . "/wp-content/uploads/2014/10/blue.png"; ?>"
                 alt="Third slide">
                 <div class="container">
                   <div class="carousel-caption">
@@ -64,7 +64,7 @@ Template Name: Homepage
                 </div>
               </div>
               <div class="item">
-                <img src="http://harris-credit.codio.io:3000/wordpress/wp-content/uploads/2014/10/blue.png"
+                <img src="<?php echo get_site_url() . "/wp-content/uploads/2014/10/blue.png"; ?>"
                 alt="Fourth slide">
                 <div class="container">
                   <div class="carousel-caption">
@@ -106,7 +106,7 @@ Template Name: Homepage
     <div class="container">
       <div class="row">
 
-        <div class="col-md-3 col-sm-4">
+        <div class="col-md-3 col-sm-6">
           <a href="<?php echo get_site_url() . "/departments/"; ?>">
             <div class="mimp-branded-block" id="find-us">
               <h4>Our Departments</h4>
@@ -116,7 +116,7 @@ Template Name: Homepage
           </a>
         </div>
 
-        <div class="col-md-3 col-sm-4">
+        <div class="col-md-3 col-sm-6">
           <a href="<?php echo get_site_url() . "/services/commercial-services/"; ?>">
             <div class="mimp-branded-block" id="find-us">
               <h4>Professional Services</h4>
@@ -126,7 +126,7 @@ Template Name: Homepage
           </a>
         </div>
 
-        <div class="col-md-3 col-sm-4">
+        <div class="col-md-3 col-sm-6">
           <a href="<?php echo get_site_url() . "/training/"; ?>">
             <div class="mimp-branded-block" id="find-us">
               <h4>Training &amp; Careers</h4>
@@ -136,7 +136,7 @@ Template Name: Homepage
           </a>
         </div>
 
-        <div class="col-md-3 col-sm-4">
+        <div class="col-md-3 col-sm-6">
           <a href="<?php echo get_site_url() . "/patient-information/"; ?>">
             <div class="mimp-branded-block" id="find-us">
               <h4>Patient Information</h4>
@@ -146,8 +146,8 @@ Template Name: Homepage
           </a>
         </div>
 
-        <div class="col-md-3 col-sm-4">
-          <a href="<?php echo get_site_url() . "/services/"; ?>">
+        <div class="col-md-3 col-sm-6">
+          <a href="<?php echo get_site_url() . "/services/#A-Z"; ?>">
             <div class="mimp-branded-block" id="find-us">
               <h4>A-Z of Services</h4>
               <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
@@ -156,7 +156,7 @@ Template Name: Homepage
           </a>
         </div>
 
-        <div class="col-md-3 col-sm-4">
+        <div class="col-md-3 col-sm-6">
           <a href="<?php echo get_site_url() . "/patient-information/#referrals"; ?>">
             <div class="mimp-branded-block" id="find-us">
               <h4>Referral Information</h4>
@@ -166,7 +166,7 @@ Template Name: Homepage
           </a>
         </div>
 
-        <div class="col-md-3 col-sm-4">
+        <div class="col-md-3 col-sm-6">
           <a href="<?php echo get_site_url() . "/services/commercial-services/consultation/"; ?>">
             <div class="mimp-branded-block" id="find-us">
               <h4>On-site Consultation</h4>
@@ -176,7 +176,7 @@ Template Name: Homepage
           </a>
         </div>
 
-        <div class="col-md-3 col-sm-4">
+        <div class="col-md-3 col-sm-6">
           <a href="<?php echo get_site_url() . "/news/"; ?>">
             <div class="mimp-branded-block" id="find-us">
               <h4>News &amp; Information</h4>
