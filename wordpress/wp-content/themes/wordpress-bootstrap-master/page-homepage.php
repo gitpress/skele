@@ -110,7 +110,7 @@ Template Name: Homepage
           <a href="<?php echo get_site_url() . "/departments/"; ?>">
             <div class="mimp-branded-block" id="find-us">
               <h4>Our Departments</h4>
-              <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
+              <footer><em>Find out more about our three world-class departments</em>
               </footer>
             </div>
           </a>
@@ -120,7 +120,7 @@ Template Name: Homepage
           <a href="<?php echo get_site_url() . "/services/commercial-services/"; ?>">
             <div class="mimp-branded-block" id="find-us">
               <h4>Professional Services</h4>
-              <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
+              <footer><em>Locate the right professional service for you</em>
               </footer>
             </div>
           </a>
@@ -130,7 +130,7 @@ Template Name: Homepage
           <a href="<?php echo get_site_url() . "/training/"; ?>">
             <div class="mimp-branded-block" id="find-us">
               <h4>Training &amp; Careers</h4>
-              <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
+              <footer><em>Upgrade your skills with our training courses</em>
               </footer>
             </div>
           </a>
@@ -140,7 +140,7 @@ Template Name: Homepage
           <a href="<?php echo get_site_url() . "/patient-information/"; ?>">
             <div class="mimp-branded-block" id="find-us">
               <h4>Patient Information</h4>
-              <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
+              <footer><em>Learn more about your patient journey and our services.</em>
               </footer>
             </div>
           </a>
@@ -150,17 +150,17 @@ Template Name: Homepage
           <a href="<?php echo get_site_url() . "/services/#A-Z"; ?>">
             <div class="mimp-branded-block" id="find-us">
               <h4>A-Z of Services</h4>
-              <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
+              <footer><em>Explore our commercial and patient services</em>
               </footer>
             </div>
           </a>
         </div>
 
         <div class="col-md-3 col-sm-6">
-          <a href="<?php echo get_site_url() . "/patient-information/#referrals"; ?>">
+          <a href="<?php echo get_site_url() . "/referrals/"; ?>">
             <div class="mimp-branded-block" id="find-us">
               <h4>Referral Information</h4>
-              <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
+              <footer><em>Find out how to make a referral to our service</em>
               </footer>
             </div>
           </a>
@@ -170,7 +170,7 @@ Template Name: Homepage
           <a href="<?php echo get_site_url() . "/services/commercial-services/consultation/"; ?>">
             <div class="mimp-branded-block" id="find-us">
               <h4>On-site Consultation</h4>
-              <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
+              <footer><em>Find a world-leading expert for your business or service</em>
               </footer>
             </div>
           </a>
@@ -180,7 +180,7 @@ Template Name: Homepage
           <a href="<?php echo get_site_url() . "/news/"; ?>">
             <div class="mimp-branded-block" id="find-us">
               <h4>News &amp; Information</h4>
-              <footer><em>Explore our extensive list of of Medical Imaging &amp; Medical Physics services </em>
+              <footer><em>Keep up to date with our news and events</em>
               </footer>
             </div>
           </a>
