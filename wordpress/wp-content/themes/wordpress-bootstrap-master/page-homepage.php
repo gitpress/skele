@@ -136,7 +136,7 @@ Template Name: Homepage
           </a>
         </div>
 
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-3 col-sm-4">
           <a href="#services">
             <div class="mimp-branded-block" id="find-us">
               <h4>Patient Information</h4>
@@ -146,7 +146,7 @@ Template Name: Homepage
           </a>
         </div>
 
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-3 col-sm-4">
           <a href="#services">
             <div class="mimp-branded-block" id="find-us">
               <h4>A-Z of Services</h4>
