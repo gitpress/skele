@@ -593,6 +593,51 @@ hr.brand-hr {
   box-shadow: none;
 }
 
+/* ******************************
+ *  Patient info
+ *  *****************************/
+
+.mimp-patient-block {
+  padding: 40px 15px;
+  background-color: #0091C9;
+  margin-bottom: 5px;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);
+  min-height: 163px;
+}
+
+.mimp-patient-block h4{
+  color: white;
+  font-size: 150%;
+  background-color: #0091C9;
+  padding: 5px;
+}
+
+.mimp-patient-block:hover {
+	background-color: #0091C9;
+  box-shadow: none;
+}
+
+.mimp-patient-appointment-block {
+  background-image: url('http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg');
+  min-height: 330px;
+  max-height: 330px;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.mimp-patient-appointment-block h4 {
+  position: absolute;
+  bottom: 0;
+}
+
+#mimp-patient-main {
+  margin-top: 35px;
+}
+
+.mimp-patient-sidebar {
+  padding-left: 0;
+}
+
 /* *****************************
 *  FONT AWESOME OVERRIDES
 *********************************/
