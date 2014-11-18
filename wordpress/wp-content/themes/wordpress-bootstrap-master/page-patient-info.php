@@ -25,62 +25,6 @@ Template Name: Patient Info
     </div>
   </div>
 
-
-  <div id="mimp-patient-blocks">
-   <div class="container">
-    <div class="row">
-      <div class="col-md-3">
-        <div class="row">
-          <div class="col-md-12">
-            <a href="#">
-            <div class="mimp-patient-block">
-              <h4>Can I find a particular consultant?</h4>
-            </div>
-              </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <a href="#">
-            <div class="mimp-patient-block">
-              <h4>Where is the department?</h4>
-            </div>
-              </a>
-          </div>
-
-        </div>
-      </div>
-      <div class="col-md-6">
-        <a href="#">
-        <div class="mimp-patient-block mimp-patient-appointment-block">
-             <h4>How do I make an appointment?</h4> 
-        </div>
-          </a>
-      </div>
-      <div class="col-md-3">
-         <div class="row">
-           <div class="col-md-12">
-             <a href="#">
-             <div class="mimp-patient-block">
-             <h4>What do I need to know about my treatment?</h4> 
-              </div>
-               </a>
-           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <a href="#">
-            <div class="mimp-patient-block">
-             <h4>What treatments do you provide?</h4> 
-            </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
- </div>
-
 <div id="mimp-patient-main">
   <div class="container">
     <div class="col-md-4 col-sm-4 mimp-patient-sidebar">
