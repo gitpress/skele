@@ -39,6 +39,20 @@ Template Name: Patient Info
         <a href="#" class="list-group-item">How can I get in touch?</a>
         <a href="#" class="list-group-item">General FAQs</a>
       </div>
+      
+      <div class="list-group">
+        <a href="#" class="list-group-item active">Patient Services</a>
+        <a href="#" class="list-group-item">Radiology</a>
+        <a href="#" class="list-group-item">Clinical Engineering</a>
+        <a href="#" class="list-group-item">Medical Imaging</a>
+      </div>
+      
+      <div class="list-group">
+        <a href="#" class="list-group-item active">Departmental Contacts</a>
+        <a href="#" class="list-group-item">Radiology</a>
+        <a href="#" class="list-group-item">Clinical Engineering</a>
+        <a href="#" class="list-group-item">Medical Imaging</a>
+      </div>
     </div>
     
     <div class="col-md-8 col-sm-8">
@@ -171,15 +185,36 @@ Template Name: Patient Info
         <h2>General FAQs</h2>
         <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
           nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        
+        <h3>Q. Where is the best place to park?</h3>
+         <p><strong>A. </strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        
+        <h3>Q. Where is the best place to park?</h3>
+         <p><strong>A. </strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        
+        <h3>Q. Where is the best place to park?</h3>
+         <p><strong>A. </strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        
+        <h3>Q. Where is the best place to park?</h3>
+         <p><strong>A. </strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        
+        <h3>Q. Where is the best place to park?</h3>
+         <p><strong>A. </strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        
+        <h3>Q. Where is the best place to park?</h3>
+         <p><strong>A. </strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        
+        <h3>Q. Where is the best place to park?</h3>
+         <p><strong>A. </strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+       
 
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
-          wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-          lobortis nisl ut aliquip ex ea commodo consequat.</p>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
-          wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-          lobortis nisl ut aliquip ex ea commodo consequat.</p>
       </div>
     </div>
   </div>
