@@ -27,7 +27,7 @@ Template Name: Referral page
   <div id="mimp-info-main">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 col-sm-4 mimp-info-sidebar">
+        <div class="col-md-4 col-sm-4">
           <div class="list-group">
             <a href="#" class="list-group-item active">Referral Information</a>
             <a href="#" class="list-group-item">iRefer Service</a>
@@ -67,7 +67,7 @@ Template Name: Referral page
                </div>
           
                 <div class="mimp-referrals-segment" id="#">
-                  <h2 class="no-margin-header">X-Rays</h2>
+                  <h2>X-Rays</h2>
                   <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
                     nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                   <img class="pull-right img-responsive" src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg">
@@ -76,7 +76,7 @@ Template Name: Referral page
                  </div>
           
                 <div class="mimp-referrals-segment" id="#">
-                  <h2 class="no-margin-header">CT, MRI, Ultrasound scans &amp; Fluoroscopy examinations (Barium studies etc.)</h2>
+                  <h2>CT, MRI, Ultrasound scans &amp; Fluoroscopy examinations (Barium studies etc.)</h2>
                   <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
                     nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                    <p>The iRefer service provides clinical guidelines to assist in making the best use of clinical radiology. Please click the button below to open iRefer via the RCR website - please note the site opens in a new window and is provided by the Royal College of Radiologists.</p>
@@ -84,7 +84,7 @@ Template Name: Referral page
                 </div>
           
                 <div class="mimp-referrals-segment" id="#">
-                  <h2 class="no-margin-header">Breast imaging</h2>
+                  <h2>Breast imaging</h2>
                   <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
                     nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                   <img class="pull-right img-responsive" src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg">
@@ -94,7 +94,7 @@ Template Name: Referral page
           
           
                 <div class="mimp-referrals-segment" id="#">
-                  <h2 class="no-margin-header">Angiography</h2>
+                  <h2>Angiography</h2>
                   <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
                     nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                    <p>The iRefer service provides clinical guidelines to assist in making the best use of clinical radiology. Please click the button below to open iRefer via the RCR website - please note the site opens in a new window and is provided by the Royal College of Radiologists.</p>
@@ -102,7 +102,7 @@ Template Name: Referral page
                 </div>
           
           <div class="mimp-referrals-segment" id="#">
-                  <h2 class="no-margin-header">Walk-in service for X-Rays</h2>
+                  <h2>Walk-in service for X-Rays</h2>
                   <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
                     nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                   <p>The iRefer service provides clinical guidelines to assist in making the best use of clinical radiology. Please click the button below to open iRefer via the RCR website - please note the site opens in a new window and is provided by the Royal College of Radiologists.</p>
@@ -110,7 +110,7 @@ Template Name: Referral page
                 </div>
           
           <div class="mimp-referrals-segment" id="#">
-                  <h2 class="no-margin-header">Accessing other examinations</h2>
+                  <h2>Accessing other examinations</h2>
                   <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
                     nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                    <p>The iRefer service provides clinical guidelines to assist in making the best use of clinical radiology. Please click the button below to open iRefer via the RCR website - please note the site opens in a new window and is provided by the Royal College of Radiologists.</p>
@@ -118,7 +118,7 @@ Template Name: Referral page
                 </div>
           
           <div class="mimp-referrals-segment" id="#">
-                  <h2 class="no-margin-header">Request Cards</h2>
+                  <h2>Request Cards</h2>
                   <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
                     nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                   <p>The iRefer service provides clinical guidelines to assist in making the best use of clinical radiology. Please click the button below to open iRefer via the RCR website - please note the site opens in a new window and is provided by the Royal College of Radiologists.</p>
