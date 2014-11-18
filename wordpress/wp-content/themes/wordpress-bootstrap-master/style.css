@@ -17,13 +17,17 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 /* Padding below the footer and lighter body text */
 
 html{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif;
 }
  
 body {
   color: #5a5a5a;
   padding-top: 70px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Montserrat', Arial, sans-serif;
 }
 
 .navbar {
@@ -639,9 +643,23 @@ hr.brand-hr {
   margin-top: 35px;
 }
 
+#mimp-patient-main h2 {
+  color: #0091C9;
+  font-family: monospace;
+  font-weight: 700;
+}
+
+#mimp-patient-main h3 {
+  color: #0091C9;
+  font-family: monospace;
+}
+
+
 .mimp-patient-sidebar {
   padding-left: 0;
 }
+
+
 
 /* *****************************
 *  FONT AWESOME OVERRIDES

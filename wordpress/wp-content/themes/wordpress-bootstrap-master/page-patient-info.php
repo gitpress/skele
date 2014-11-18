@@ -48,6 +48,7 @@ Template Name: Patient Info
         <h2 class="no-margin-header">How do I get here?</h2>
         <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
           nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        <img class="pull-right img-responsive" src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg">
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
           nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
           wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
@@ -63,15 +64,37 @@ Template Name: Patient Info
         <h2>How do I make, change or cancel an appointment?</h2>
         <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
           nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        
+        <h3>Making an appointment</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
+          wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+          lobortis nisl ut aliquip ex ea commodo consequat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
+          wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+          lobortis nisl ut aliquip ex ea commodo consequat.</p>
+        
+        <h3>Changing an appointment</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
+          wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+          lobortis nisl ut aliquip ex ea commodo consequat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
+          wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+          lobortis nisl ut aliquip ex ea commodo consequat.</p>
+        
+        <h3>Cancelling an appointment</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
+          wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+          lobortis nisl ut aliquip ex ea commodo consequat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
+          wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+          lobortis nisl ut aliquip ex ea commodo consequat.</p>
 
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
-          wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-          lobortis nisl ut aliquip ex ea commodo consequat.</p>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
-          wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-          lobortis nisl ut aliquip ex ea commodo consequat.</p>
       </div>
 
       <div class="mimp-patient-segment" id="#HowdoIgethere?">
