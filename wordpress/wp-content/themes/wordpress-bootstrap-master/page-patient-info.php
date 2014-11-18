@@ -45,11 +45,9 @@ Template Name: Patient Info
 
       
       <div class="mimp-patient-segment" id="#HowdoIgethere?">
-        <h2>How do I get here?</h2>
+        <h2 class="no-margin-header">How do I get here?</h2>
         <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
-          wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-          lobortis nisl ut aliquip ex ea commodo consequat.</p>
+          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
           nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
           wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
@@ -64,9 +62,7 @@ Template Name: Patient Info
       <div class="mimp-patient-segment" id="#HowdoIgethere?">
         <h2>How do I make, change or cancel an appointment?</h2>
         <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
-          wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-          lobortis nisl ut aliquip ex ea commodo consequat.</p>
+          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
           nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
@@ -81,9 +77,7 @@ Template Name: Patient Info
       <div class="mimp-patient-segment" id="#HowdoIgethere?">
         <h2>What should I do before I leave for an appointment?</h2>
         <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
-          wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-          lobortis nisl ut aliquip ex ea commodo consequat.</p>
+          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
           nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
@@ -98,9 +92,7 @@ Template Name: Patient Info
       <div class="mimp-patient-segment" id="#HowdoIgethere?">
         <h2>What should I expect at an appointment?</h2>
         <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
-          wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-          lobortis nisl ut aliquip ex ea commodo consequat.</p>
+          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
           nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
@@ -115,9 +107,7 @@ Template Name: Patient Info
       <div class="mimp-patient-segment" id="#HowdoIgethere?">
         <h2>Will I be provided any medicine?</h2>
         <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
-          wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-          lobortis nisl ut aliquip ex ea commodo consequat.</p>
+          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
           nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
           wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
@@ -127,9 +117,7 @@ Template Name: Patient Info
       <div class="mimp-patient-segment" id="#HowdoIgethere?">
         <h2>How long will I stay at hospital, how am I evaluated?</h2>
         <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
-          wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-          lobortis nisl ut aliquip ex ea commodo consequat.</p>
+          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
           nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
@@ -144,9 +132,7 @@ Template Name: Patient Info
       <div class="mimp-patient-segment" id="#HowdoIgethere?">
         <h2>How can I get in touch?</h2>
         <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
-          wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-          lobortis nisl ut aliquip ex ea commodo consequat.</p>
+          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
           nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
@@ -161,9 +147,7 @@ Template Name: Patient Info
       <div class="mimp-patient-segment" id="#HowdoIgethere?">
         <h2>General FAQs</h2>
         <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
-          wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-          lobortis nisl ut aliquip ex ea commodo consequat.</p>
+          nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
           nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut

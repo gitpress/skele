@@ -11,12 +11,12 @@ Template Name: Homepage
   <div id="mimp-carousel">
     
 
-              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
               <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-              <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="2" class=""></li>
               <li data-target="#myCarousel" data-slide-to="3" class=""></li>
             </ol>
             <div class="carousel-inner">
@@ -108,6 +108,7 @@ Template Name: Homepage
 
         <div class="col-md-3 col-sm-6">
           <a href="<?php echo get_site_url() . "/departments/"; ?>">
+            <img class="mimp-nav-img" src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg">
             <div class="mimp-branded-block" id="find-us">
               <h4>Our Departments</h4>
               <footer><em>Find out more about our three world-class departments</em>
@@ -116,28 +117,10 @@ Template Name: Homepage
           </a>
         </div>
 
-        <div class="col-md-3 col-sm-6">
-          <a href="<?php echo get_site_url() . "/services/commercial-services/"; ?>">
-            <div class="mimp-branded-block" id="find-us">
-              <h4>Professional Services</h4>
-              <footer><em>Locate the right professional service for you</em>
-              </footer>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-3 col-sm-6">
-          <a href="<?php echo get_site_url() . "/training/"; ?>">
-            <div class="mimp-branded-block" id="find-us">
-              <h4>Training &amp; Careers</h4>
-              <footer><em>Upgrade your skills with our training courses</em>
-              </footer>
-            </div>
-          </a>
-        </div>
 
         <div class="col-md-3 col-sm-6">
           <a href="<?php echo get_site_url() . "/patient-information/"; ?>">
+            <img class="mimp-nav-img" src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg">
             <div class="mimp-branded-block" id="find-us">
               <h4>Patient Information</h4>
               <footer><em>Learn more about your patient journey and our services.</em>
@@ -148,6 +131,7 @@ Template Name: Homepage
 
         <div class="col-md-3 col-sm-6">
           <a href="<?php echo get_site_url() . "/services/#A-Z"; ?>">
+            <img class="mimp-nav-img" src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg">
             <div class="mimp-branded-block" id="find-us">
               <h4>A-Z of Services</h4>
               <footer><em>Explore our commercial and patient services</em>
@@ -158,6 +142,7 @@ Template Name: Homepage
 
         <div class="col-md-3 col-sm-6">
           <a href="<?php echo get_site_url() . "/referrals/"; ?>">
+            <img class="mimp-nav-img" src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg">
             <div class="mimp-branded-block" id="find-us">
               <h4>Referral Information</h4>
               <footer><em>Find out how to make a referral to our service</em>
@@ -166,25 +151,6 @@ Template Name: Homepage
           </a>
         </div>
 
-        <div class="col-md-3 col-sm-6">
-          <a href="<?php echo get_site_url() . "/services/commercial-services/consultation/"; ?>">
-            <div class="mimp-branded-block" id="find-us">
-              <h4>On-site Consultation</h4>
-              <footer><em>Find a world-leading expert for your business or service</em>
-              </footer>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-3 col-sm-6">
-          <a href="<?php echo get_site_url() . "/news/"; ?>">
-            <div class="mimp-branded-block" id="find-us">
-              <h4>News &amp; Information</h4>
-              <footer><em>Keep up to date with our news and events</em>
-              </footer>
-            </div>
-          </a>
-        </div>
 
       </div>
     </div>

@@ -119,6 +119,11 @@ border-radius: 0px;
 	text-decoration: none;
 	color: white;
 }
+
+.mimp-nav-img {
+  margin: 0px;
+  max-width: 100%;
+}
  
 /* MIMP FOOTER */
  

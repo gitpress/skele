@@ -137,7 +137,7 @@ Template Name: Service home page
           </div>
           <div class="row">
             <div class="col-md-12">
-              <h2>With four unparalleled departments, we are sure to have the medical imaging and medical physics service you need</h2>
+              <h2>With three unparalleled departments, we are sure to have the medical imaging and medical physics service you need</h2>
               <div class="row">
                 <div class="col-md-4">
                   <img src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg"
@@ -214,7 +214,7 @@ Template Name: Service home page
           </div>
           <div class="row">
             <div class="col-md-12">
-              <h2>With four unparalleled departments, we are sure to have the medical imaging and medical physics service you need</h2>
+              <h2>With three unparalleled departments, we are sure to have the medical imaging and medical physics service you need</h2>
               <div class="row">
                 <div class="col-md-4">
                   <img src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg"
