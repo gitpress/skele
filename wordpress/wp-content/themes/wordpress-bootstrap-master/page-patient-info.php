@@ -25,9 +25,9 @@ Template Name: Patient Info
     </div>
   </div>
 
-<div id="mimp-patient-main">
+<div id="mimp-info-main">
   <div class="container">
-    <div class="col-md-4 col-sm-4 mimp-patient-sidebar">
+    <div class="col-md-4 col-sm-4 mimp-info-sidebar">
       <div class="list-group">
         <a href="#" class="list-group-item active">Patient Information</a>
         <a href="#" class="list-group-item">How do I get here?</a>
@@ -43,15 +43,23 @@ Template Name: Patient Info
       <div class="list-group">
         <a href="#" class="list-group-item active">Patient Services</a>
         <a href="#" class="list-group-item">Radiology</a>
+        <a href="#" class="list-group-item">Breast scanning</a>
         <a href="#" class="list-group-item">Clinical Engineering</a>
         <a href="#" class="list-group-item">Medical Imaging</a>
       </div>
       
       <div class="list-group">
-        <a href="#" class="list-group-item active">Departmental Contacts</a>
+        <a href="#" class="list-group-item active">Departments</a>
         <a href="#" class="list-group-item">Radiology</a>
         <a href="#" class="list-group-item">Clinical Engineering</a>
         <a href="#" class="list-group-item">Medical Imaging</a>
+      </div>
+      
+      <div class="list-group">
+        <a href="#" class="list-group-item active list-group-item-warning">Get in touch</a>
+        <a href="#" class="list-group-item">Phone us: </a>
+        <a href="#" class="list-group-item">Email us</a>
+        <a href="#" class="list-group-item">Write to us</a>
       </div>
     </div>
     
@@ -115,7 +123,7 @@ Template Name: Patient Info
         <h2>What should I do before I leave for an appointment?</h2>
         <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
           nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-
+        <img class="pull-right img-responsive" src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg">
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
           nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
           wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
@@ -130,7 +138,7 @@ Template Name: Patient Info
         <h2>What should I expect at an appointment?</h2>
         <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
           nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-
+         <img class="pull-right img-responsive" src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg">
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
           nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
           wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
@@ -155,7 +163,7 @@ Template Name: Patient Info
         <h2>How long will I stay at hospital, how am I evaluated?</h2>
         <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
           nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-
+         <img class="pull-right img-responsive" src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg">
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
           nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
           wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit

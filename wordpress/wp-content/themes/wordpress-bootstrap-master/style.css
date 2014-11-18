@@ -296,6 +296,11 @@ background-color: #000;
 .carousel {
   height:300px;
 }
+
+.list-group {
+  box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);
+}
+
  
 /**** *****/
  
@@ -639,23 +644,23 @@ hr.brand-hr {
   bottom: 0;
 }
 
-#mimp-patient-main {
+#mimp-info-main {
   margin-top: 35px;
 }
 
-#mimp-patient-main h2 {
+#mimp-info-main h2 {
   color: #0091C9;
   font-family: monospace;
   font-weight: 700;
 }
 
-#mimp-patient-main h3 {
+#mimp-info-main h3 {
   color: #0091C9;
   font-family: monospace;
 }
 
 
-.mimp-patient-sidebar {
+.mimp-info-sidebar {
   padding-left: 0;
 }
 
