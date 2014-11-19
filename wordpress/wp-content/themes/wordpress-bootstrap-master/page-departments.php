@@ -29,47 +29,53 @@ Template Name: Department Homepage
  <div class="container">
     <div class="row">
       <div class="container">
-            <div class="col-md-10 col-md-offset-1">
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2">
-                <h1 class="section-header">Our Departments</h1>
-                <hr class="brand-hr">
-              </div>
-            </div> 
-            <div class="row">
-              <div class="col-md-12">
-                <h2>With three unparalleled departments, we are sure to have the medical imaging and medical physics service you need</h2>
-                <div class="row">
-                  
-                  <div class="col-md-12">
-                            <p class="">From prototyping and building innovative medical devices, imaging and cutting-edge clinical services to radiation protection. From prototyping and building innovative medical devices, imaging and cutting-edge clinical services to radiation protection. From prototyping and building innovative medical devices, imaging and cutting-edge clinical services to radiation protection</p>
-                            
-                    
-                                                
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div class="col-md-12">
+
+
               
-            <div class="row">
+            <div class="row" id="mimp-nav-blocks">
               <div class="col-md-3">
-                <h4>Commercial Services</h4>
-                <a href="#"><img src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg" class="img-responsive"></a>
+                
+                <a href="#"><img src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg" class="img-responsive">
+                <div class="mimp-branded-block" id="find-us">
+                  <h4>Medical Imaging &amp; Clinical Engineering</h4>
+                  <footer><em>Find out more about our three world-class departments</em>
+                  </footer>
+                </div>
+                </a>
+                 
+              </div>
+              <div class="col-md-3">
+                
+                <a href="#"><img src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg" class="img-responsive">
+                                <div class="mimp-branded-block" id="find-us">
+                  <h4>Radiology Department</h4>
+                  <footer><em>Find out more about our three world-class departments</em>
+                  </footer>
+                </div>
+                </a>
                   
               </div>
               <div class="col-md-3">
-                <h4>Clinical Engineering</h4>
-                <a href="#"><img src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg" class="img-responsive"></a>
+               
+                <a href="#"><img src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg" class="img-responsive">
+                                <div class="mimp-branded-block" id="find-us">
+                  <h4>Our Professional Services</h4>
+                  <footer><em>Find out more about our three world-class departments</em>
+                  </footer>
+                </div>
+                </a>
                   
               </div>
               <div class="col-md-3">
-                <h4>Imaging Services</h4>
-                <a href="#"><img src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg" class="img-responsive"></a>
-                  
-              </div>
-              <div class="col-md-3">
-                <h4>Training and Careers</h4>
-                <a href="#"><img src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg" class="img-responsive"></a>
+               
+                <a href="#"><img src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg" class="img-responsive">
+                                <div class="mimp-branded-block" id="find-us">
+                 <h4>Meet the team</h4>
+                  <footer><em>Find out more about our three world-class departments</em>
+                  </footer>
+                </div>
+                </a>
                   
               </div>
             </div>
