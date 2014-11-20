@@ -650,13 +650,13 @@ hr.brand-hr {
 
 #mimp-info-main h2 {
   color: #0091C9;
-  font-family: monospace;
+  font-family: Arial, sans-serif;
   font-weight: 700;
 }
 
 #mimp-info-main h3 {
   color: #0091C9;
-  font-family: monospace;
+  font-family: Arial, sans-serif;
 }
 
 
@@ -664,7 +664,17 @@ hr.brand-hr {
   padding-left: 0;
 }
 
+/* *****************************
+*  DEPARTMENT STYLES
+*********************************/
 
+
+#mimp-team-section{
+  background-color: #28B4EB;
+  padding: 50px;
+  margin: 20px 0;
+  color: #fff;
+}
 
 /* *****************************
 *  FONT AWESOME OVERRIDES
