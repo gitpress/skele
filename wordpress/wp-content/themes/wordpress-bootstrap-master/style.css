@@ -265,10 +265,25 @@ border-radius: 0px;
  
 }
  
-/* Typography */
+/* **************************
+ * Typography 
+ * ********** **************/
 .no-margin-header {
 	margin-top: 0px;
 }
+
+.under-margin {
+  margin-bottom: 45px;
+}
+
+/* ****************
+ * BUTTONS
+ * *****************/
+
+.btn-white {
+  color: #fff;
+}
+
  
 /* overrides */
  
@@ -671,9 +686,17 @@ hr.brand-hr {
 
 #mimp-team-section{
   background-color: #28B4EB;
-  padding: 50px;
-  margin: 20px 0;
+  padding: 70px 0;
+  margin: 50px 0;
   color: #fff;
+}
+
+#mimp-department-intro {
+  margin-top: 45px;
+}
+
+#mimp-contact-section {
+  margin-bottom: 45px;
 }
 
 /* *****************************
