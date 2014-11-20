@@ -273,7 +273,12 @@ border-radius: 0px;
 }
 
 .under-margin {
-  margin-bottom: 45px;
+  margin-bottom: 25px;
+}
+
+.branded-heading {
+  border-bottom: 5px solid #0091C9;
+  color: #0091C9;
 }
 
 /* ****************
