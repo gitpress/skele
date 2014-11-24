@@ -184,7 +184,7 @@ border-radius: 0px;
   height: 500px;
   margin-bottom: 10px;
   margin-top: -20px;
-  box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);
+  
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
