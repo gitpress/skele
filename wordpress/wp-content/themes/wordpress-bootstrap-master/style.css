@@ -606,6 +606,11 @@ hr.brand-hr {
 }
 
 
+#mimp-service-buttons .btn {
+  border-radius: 0px;
+  padding: 12px;
+}
+
 /******* MIMP NAV BLOCKS *************/
 
 .mimp-branded-block h4{
