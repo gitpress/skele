@@ -221,11 +221,10 @@ border-radius: 0px;
 /* GLOBAL FOOTER */
 
 #global-footer {
-	padding: 15px 0 10px 0;
+	padding: 30px 0 10px 0;
 	background-color: #0091C9;
 	color: white;
 	border: 0 solid #28B4EB;
-	border-top: 10px solid #28B4EB;
 }
  
 .global-styles a {
