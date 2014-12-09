@@ -109,8 +109,6 @@ border-radius: 0px;
 /* MIMP NAV BLOCKS */
  
 #mimp-nav-blocks {
-	padding-right: 30px;
-	margin-top: 5px;
 	color: white;
 }
  
@@ -145,12 +143,16 @@ border-radius: 0px;
 }
  
 .mimp-search-box {
-	background-color: rgba(215, 226, 226, 0.55);
-	padding: 15px 15px 0 15px;
+	background-color: #efefef;
+	padding: 15px;
 }
  
 #mimp-search-bar placeholder {
 	font-style: italic;
+}
+
+#mimp-search-bar .form-group {
+  margin-bottom: 0px;
 }
  
 @media (max-width:1199px){
@@ -195,7 +197,7 @@ border-radius: 0px;
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-  background-color: #777;
+  background-color: #efefef;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -280,6 +282,12 @@ border-radius: 0px;
   color: #0091C9;
 }
 
+.mimp-brand-heading{
+  background-color: #0091C9;
+  color: #fff;
+  padding: 5px;
+}
+
 /* ****************
  * BUTTONS
  * *****************/
@@ -320,6 +328,9 @@ background-color: #000;
   box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);
 }
 
+.hidden-mobile{
+
+}
  
 /**** *****/
  
@@ -351,6 +362,12 @@ background-color: #000;
     margin-bottom: 20px;
     font-size: 21px;
     line-height: 1.4;
+  }
+}
+
+@media (max-width: 376px){
+  .hidden-mobile{
+    display: none;
   }
 }
 
@@ -698,6 +715,10 @@ hr.brand-hr {
   padding: 70px 0;
   margin: 50px 0;
   color: #fff;
+}
+
+#mimp-team-section img.media-object{
+  max-width: 300px;
 }
 
 #mimp-department-intro {

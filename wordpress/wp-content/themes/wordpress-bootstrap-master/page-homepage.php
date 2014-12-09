@@ -5,23 +5,22 @@ Template Name: Homepage
 ?>
 
 <?php get_header(); ?>
-</div> <!-- div to kill container -->
 
  <!-- CAROUSELLA -->
   <div id="mimp-carousel">
     
 
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <div id="myCarousel" class="carousel slide hidden-mobile" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
               <li data-target="#myCarousel" data-slide-to="1" class=""></li>
               <li data-target="#myCarousel" data-slide-to="2" class=""></li>
-              <li data-target="#myCarousel" data-slide-to="3" class=""></li>
             </ol>
             <div class="carousel-inner">
-              <div class="item">
-                <img src="<?php echo get_site_url() . "/wp-content/uploads/2014/10/blue.png"; ?>"
+              <a href="#">
+              <div class="item active">
+                <img src="http://www.carat7.com/wp-content/uploads/2014/08/healthcare_intro_small-1200x550-cropped.jpg"
                 alt="First slide">
                 <div class="container">
                   <div class="carousel-caption">
@@ -30,13 +29,14 @@ Template Name: Homepage
                       the "next" and "previous" Glyphicon buttons on the left and
                       right might not load/display properly due to web browser security
                       rules.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a>
                     </p>
                   </div>
                 </div>
+                </a>
               </div>
               <div class="item">
-                <img src="<?php echo get_site_url() . "/wp-content/uploads/2014/10/blue.png"; ?>"
+                <a href="#">
+                <img src="http://www.ox.ac.uk/sites/files/oxford/styles/ow_large_feature/public/field/field_image_main/Physics.jpg?itok=MJTR5pAd"
                 alt="Second slide">
                 <div class="container">
                   <div class="carousel-caption">
@@ -44,13 +44,13 @@ Template Name: Homepage
                     <p class="mimp-carousel-paragraph">Cras justo odio, dapibus ac facilisis in, egestas eget quam.
                       Donec id elit non mi porta gravida at eget metus. Nullam id
                       dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
-                    </p>
                   </div>
                 </div>
+                </a>
               </div>
-              <div class="item active">
-                <img src="<?php echo get_site_url() . "/wp-content/uploads/2014/10/blue.png"; ?>"
+              <div class="item">
+               <a href="#">
+                <img src="http://radiology.queensu.ca/templates/department-radiology/images/som-diag-rad-02.jpg"
                 alt="Third slide">
                 <div class="container">
                   <div class="carousel-caption">
@@ -58,24 +58,9 @@ Template Name: Homepage
                     <p class="mimp-carousel-paragraph">Cras justo odio, dapibus ac facilisis in, egestas eget quam.
                       Donec id elit non mi porta gravida at eget metus. Nullam id
                       dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a>
-                    </p>
                   </div>
                 </div>
-              </div>
-              <div class="item">
-                <img src="<?php echo get_site_url() . "/wp-content/uploads/2014/10/blue.png"; ?>"
-                alt="Fourth slide">
-                <div class="container">
-                  <div class="carousel-caption">
-                    <h1 class="mimp-carousel-header">Training and Consultation</h1>
-                    <p class="mimp-carousel-paragraph">Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                      Donec id elit non mi porta gravida at eget metus. Nullam id
-                      dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a>
-                    </p>
-                  </div>
-                </div>
+                </a>
               </div>
             </div>
             <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span>
@@ -84,6 +69,9 @@ Template Name: Homepage
             </a>
           </div>
    </div>
+</div> <!-- div to kill container -->
+
+
 
 <div id="mimp-search-bar">
     <div class="container">
@@ -105,22 +93,10 @@ Template Name: Homepage
 <div id="mimp-nav-blocks">
     <div class="container">
       <div class="row">
-
-        <div class="col-md-3 col-sm-6">
-          <a href="<?php echo get_site_url() . "/departments/"; ?>">
-            <img class="mimp-nav-img" src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg">
-            <div class="mimp-branded-block" id="find-us">
-              <h4>Our Departments</h4>
-              <footer><em>Find out more about our three world-class departments</em>
-              </footer>
-            </div>
-          </a>
-        </div>
-
-
-        <div class="col-md-3 col-sm-6">
+        
+        <div class="col-md-3 col-sm-6 col-xs-12">
           <a href="<?php echo get_site_url() . "/patient-information/"; ?>">
-            <img class="mimp-nav-img" src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg">
+            <img class="mimp-nav-img hidden-xs" src="/wordpress/wp-content/uploads/2014/12/10913-2.jpg">
             <div class="mimp-branded-block" id="find-us">
               <h4>Patient Information</h4>
               <footer><em>Learn more about your patient journey and our services.</em>
@@ -128,10 +104,10 @@ Template Name: Homepage
             </div>
           </a>
         </div>
-
-        <div class="col-md-3 col-sm-6">
+        
+       <div class="col-md-3 col-sm-6 col-xs-12">
           <a href="<?php echo get_site_url() . "/services/#A-Z"; ?>">
-            <img class="mimp-nav-img" src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg">
+            <img class="mimp-nav-img hidden-xs" src="/wordpress/wp-content/uploads/2014/12/10912-2.jpg">
             <div class="mimp-branded-block" id="find-us">
               <h4>A-Z of Services</h4>
               <footer><em>Explore our commercial and patient services</em>
@@ -140,9 +116,20 @@ Template Name: Homepage
           </a>
         </div>
 
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <a href="<?php echo get_site_url() . "/departments/"; ?>">
+            <img class="mimp-nav-img hidden-xs" src="/wordpress/wp-content/uploads/2014/12/Amicus-Sheffield18.jpg">
+            <div class="mimp-branded-block" id="find-us">
+              <h4>Commercial Services</h4>
+              <footer><em>Find out more about our three world-class departments</em>
+              </footer>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
           <a href="<?php echo get_site_url() . "/referrals/"; ?>">
-            <img class="mimp-nav-img" src="http://news.bbcimg.co.uk/media/images/78466000/jpg/_78466685_healthcare_team-spl.jpg">
+            <img class="mimp-nav-img hidden-xs" src="/wordpress/wp-content/uploads/2014/12/IMG_6101Sheff.jpg">
             <div class="mimp-branded-block" id="find-us">
               <h4>Referral Information</h4>
               <footer><em>Find out how to make a referral to our service</em>
@@ -160,16 +147,16 @@ Template Name: Homepage
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1 class="under-margin">Major Section</h1>
+        <h1 class="under-margin">Our Departments</h1>
         
         <div class="row">
           <div class="col-md-6">
             <div class="media">
               <a class="pull-left" href="#">
-                <img class="media-object" src="http://upload.wikimedia.org/wikipedia/en/b/b1/Portrait_placeholder.png" alt="Media Object" height="100px">
+                <img class="media-object hidden-mobile" src="/wordpress/wp-content/uploads/2014/12/Amicus-Sheffield11.jpg" alt="Media Object">
               </a>
               <div class="media-body">
-                <h4 class="media-heading">Media heading</h4> This is some sample text. This is some sample text. This is some sample
+                <h4 class="media-heading">Medical Physics &amp; Clinical Engineering</h4> This is some sample text. This is some sample text. This is some sample
                 text. This is some sample text. This is some sample text. This is some sample text. This is some sample
                 text.
               </div>
@@ -177,10 +164,10 @@ Template Name: Homepage
             
             <div class="media">
               <a class="pull-left" href="#">
-                <img class="media-object" src="http://upload.wikimedia.org/wikipedia/en/b/b1/Portrait_placeholder.png" alt="Media Object" height="100px">
+                <img class="media-object hidden-mobile" src="/wordpress/wp-content/uploads/2014/12/11534-2.jpg" alt="Media Object">
               </a>
               <div class="media-body">
-                <h4 class="media-heading">Media heading</h4> This is some sample text. This is some sample text. This is some sample
+                <h4 class="media-heading">Radiology</h4> This is some sample text. This is some sample text. This is some sample
                 text. This is some sample text. This is some sample text. This is some sample text. This is some sample
                 text.
               </div>
@@ -190,20 +177,20 @@ Template Name: Homepage
            <div class="col-md-6">
               <div class="media">
                 <a class="pull-left" href="#">
-                  <img class="media-object" src="http://upload.wikimedia.org/wikipedia/en/b/b1/Portrait_placeholder.png" alt="Media Object" height="100px">
+                  <img class="media-object hidden-mobile" src="/wordpress/wp-content/uploads/2014/12/Amicus-Sheffield09.jpg" alt="Media Object">
                 </a>
                 <div class="media-body">
-                  <h4 class="media-heading">Media heading</h4> This is some sample text. This is some sample text. This is some sample
+                  <h4 class="media-heading">Audiological Science</h4> This is some sample text. This is some sample text. This is some sample
                   text. This is some sample text. This is some sample text. This is some sample text. This is some sample
                   text.
                 </div>
               </div>
               <div class="media">
                 <a class="pull-left" href="#">
-                  <img class="media-object" src="http://upload.wikimedia.org/wikipedia/en/b/b1/Portrait_placeholder.png" alt="Media Object" height="100px">
+                  <img class="media-object hidden-mobile" src="/wordpress/wp-content/uploads/2014/12/1710-2.jpg" alt="Media Object">
                 </a>
                 <div class="media-body">
-                  <h4 class="media-heading">Media heading</h4> This is some sample text. This is some sample text. This is some sample
+                  <h4 class="media-heading">Training</h4> This is some sample text. This is some sample text. This is some sample
                   text. This is some sample text. This is some sample text. This is some sample text. This is some sample
                   text.
                 </div>
@@ -214,7 +201,7 @@ Template Name: Homepage
          <div class="row">
            <div class="col-md-12">
              <br>
-             <a href="#" class="btn btn-link btn-white">Find out more about our staff</a>
+             <a href="<?php echo get_site_url() . "/departments/"; ?>" class="btn btn-link btn-white">Find out more about our departments</a>
            </div>
            
         </div>
@@ -231,7 +218,7 @@ Template Name: Homepage
        
           <div class="row">
             <div class="col-md-6" id="">
-              <h2 class="no-margin-header">Royal Hallamshire Hospital</h2>
+              <h2 class="no-margin-header mimp-brand-heading">Find us</h2>
               <p>paragraph about something to do with turning up at the Hallamshire. This is some sample text. This is some sample text. This is some sample
                   text. This is some sample text. This is some sample text. This is some sample text. This is some sample
                   text.</p>
@@ -242,7 +229,7 @@ Template Name: Homepage
                   S10 2JF<br>
               </address>
               
-              <h3>Patient Information</h3>
+              <h2 class="mimp-brand-heading">Patient Information</h2>
               <p>If you have an appointment with us, or are looking for information about what to expect, please see our dedicated pages:</p>
 <a href="#">How do I get a referral?</a><br>
 <a href="#">How do I get there</a><br>
