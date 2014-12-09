@@ -99,14 +99,14 @@ Template Name: Homepage
             <img class="mimp-nav-img hidden-xs" src="/wordpress/wp-content/uploads/2014/12/10913-2.jpg">
             <div class="mimp-branded-block" id="find-us">
               <h4>Patient Information</h4>
-              <footer><em>Learn more about your patient journey and our services.</em>
+              <footer><em>Learn more about your patient journey and our services</em>
               </footer>
             </div>
           </a>
         </div>
         
        <div class="col-md-3 col-sm-6 col-xs-12">
-          <a href="<?php echo get_site_url() . "/services/#A-Z"; ?>">
+          <a href="<?php echo get_site_url() . "/services/"; ?>">
             <img class="mimp-nav-img hidden-xs" src="/wordpress/wp-content/uploads/2014/12/10912-2.jpg">
             <div class="mimp-branded-block" id="find-us">
               <h4>A-Z of Services</h4>
@@ -117,11 +117,11 @@ Template Name: Homepage
         </div>
 
         <div class="col-md-3 col-sm-6 col-xs-12">
-          <a href="<?php echo get_site_url() . "/departments/"; ?>">
+          <a href="<?php echo get_site_url() . "/commercial-services/"; ?>">
             <img class="mimp-nav-img hidden-xs" src="/wordpress/wp-content/uploads/2014/12/Amicus-Sheffield18.jpg">
             <div class="mimp-branded-block" id="find-us">
               <h4>Commercial Services</h4>
-              <footer><em>Find out more about our three world-class departments</em>
+              <footer><em>Find out more about our world-class commerical services</em>
               </footer>
             </div>
           </a>
@@ -156,7 +156,7 @@ Template Name: Homepage
                 <img class="media-object hidden-mobile" src="/wordpress/wp-content/uploads/2014/12/Amicus-Sheffield11.jpg" alt="Media Object">
               </a>
               <div class="media-body">
-                <h4 class="media-heading">Medical Physics &amp; Clinical Engineering</h4> This is some sample text. This is some sample text. This is some sample
+                <h3 class="media-heading">Medical Physics &amp; Clinical Engineering</h3> This is some sample text. This is some sample text. This is some sample
                 text. This is some sample text. This is some sample text. This is some sample text. This is some sample
                 text.
               </div>
@@ -167,7 +167,7 @@ Template Name: Homepage
                 <img class="media-object hidden-mobile" src="/wordpress/wp-content/uploads/2014/12/11534-2.jpg" alt="Media Object">
               </a>
               <div class="media-body">
-                <h4 class="media-heading">Radiology</h4> This is some sample text. This is some sample text. This is some sample
+                <h3 class="media-heading">Radiology</h3> This is some sample text. This is some sample text. This is some sample
                 text. This is some sample text. This is some sample text. This is some sample text. This is some sample
                 text.
               </div>
@@ -180,7 +180,7 @@ Template Name: Homepage
                   <img class="media-object hidden-mobile" src="/wordpress/wp-content/uploads/2014/12/Amicus-Sheffield09.jpg" alt="Media Object">
                 </a>
                 <div class="media-body">
-                  <h4 class="media-heading">Audiological Science</h4> This is some sample text. This is some sample text. This is some sample
+                  <h3 class="media-heading">Audiological Science</h3> This is some sample text. This is some sample text. This is some sample
                   text. This is some sample text. This is some sample text. This is some sample text. This is some sample
                   text.
                 </div>
@@ -190,7 +190,7 @@ Template Name: Homepage
                   <img class="media-object hidden-mobile" src="/wordpress/wp-content/uploads/2014/12/1710-2.jpg" alt="Media Object">
                 </a>
                 <div class="media-body">
-                  <h4 class="media-heading">Training</h4> This is some sample text. This is some sample text. This is some sample
+                  <h3 class="media-heading">Training</h3> This is some sample text. This is some sample text. This is some sample
                   text. This is some sample text. This is some sample text. This is some sample text. This is some sample
                   text.
                 </div>
@@ -219,9 +219,7 @@ Template Name: Homepage
           <div class="row">
             <div class="col-md-6" id="">
               <h2 class="no-margin-header mimp-brand-heading">Find us</h2>
-              <p>paragraph about something to do with turning up at the Hallamshire. This is some sample text. This is some sample text. This is some sample
-                  text. This is some sample text. This is some sample text. This is some sample text. This is some sample
-                  text.</p>
+              <p>The Medical Imaging &amp; Medical Physics departments are based at the Royal Hallamshire Hospital. The Royal Hallamshire is situated a mile from the city on the Trust's central campus.</p>
               <address>
                   <a href="http://www.sth.nhs.uk/our-hospitals/royal-hallamshire-hospital/contact-us">Royal Hallamshire Hospital</a><br>
                   Glossop Road<br>
