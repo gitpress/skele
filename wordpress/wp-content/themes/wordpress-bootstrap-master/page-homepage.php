@@ -5,9 +5,11 @@ Template Name: Homepage
 ?>
 
 <?php get_header(); ?>
-
+</div> <!-- div to kill container -->
  <!-- CAROUSELLA -->
-  <div id="mimp-carousel">
+
+<div class="container">
+   <div id="mimp-carousel">
     
 
           <div id="myCarousel" class="carousel slide hidden-mobile" data-ride="carousel">
@@ -18,8 +20,9 @@ Template Name: Homepage
               <li data-target="#myCarousel" data-slide-to="2" class=""></li>
             </ol>
             <div class="carousel-inner">
-              <a href="#">
+              
               <div class="item active">
+                <a href="#">
                 <img src="http://www.carat7.com/wp-content/uploads/2014/08/healthcare_intro_small-1200x550-cropped.jpg"
                 alt="First slide">
                 <div class="container">
@@ -29,11 +32,11 @@ Template Name: Homepage
                       the "next" and "previous" Glyphicon buttons on the left and
                       right might not load/display properly due to web browser security
                       rules.</p>
-                    </p>
                   </div>
                 </div>
-                </a>
+                 </a>
               </div>
+               
               <div class="item">
                 <a href="#">
                 <img src="http://www.ox.ac.uk/sites/files/oxford/styles/ow_large_feature/public/field/field_image_main/Physics.jpg?itok=MJTR5pAd"
@@ -69,7 +72,9 @@ Template Name: Homepage
             </a>
           </div>
    </div>
-</div> <!-- div to kill container -->
+  </div>
+ 
+
 
 
 

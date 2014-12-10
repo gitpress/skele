@@ -478,13 +478,16 @@ article blockquote{
   border-left: 0px;
 }
 
+#mimp-news-section .contact-form textarea {
+  width: 300px;
+}
 
 /**********************************************
  * service css
  * *******************************************/
 
 #mimp-service-header {
-	background-color: #08688D;
+	background-color: #0091C9;
 	padding: 50px 0px;
 	color: white;
   margin-top: -30px;
@@ -718,6 +721,17 @@ hr.brand-hr {
 
 #mimp-team-section img.media-object{
   max-width: 300px;
+}
+
+#mimp-service-section{
+  background-color: #28B4EB;
+  padding: 70px 0;
+  margin: 50px 0;
+  color: #fff;
+}
+
+#mimp-service-section img.media-object{
+  max-width: 180px;
 }
 
 #mimp-department-intro {
