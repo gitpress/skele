@@ -8,9 +8,9 @@ Template Name: Homepage
 </div> <!-- div to kill container -->
  <!-- CAROUSELLA -->
 
-<div class="container">
+
    <div id="mimp-carousel">
-    
+    <div class="container">
 
           <div id="myCarousel" class="carousel slide hidden-mobile" data-ride="carousel">
             <!-- Indicators -->

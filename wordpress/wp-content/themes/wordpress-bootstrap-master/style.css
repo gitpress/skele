@@ -22,7 +22,7 @@ html{
  
 body {
   color: #5a5a5a;
-  padding-top: 70px;
+  padding-top: 0px;
   font-family: 'Montserrat', Arial, sans-serif;
 }
 
@@ -31,16 +31,27 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .navbar {
-  border-width:0 0 2px 0;
+  border-width:0 0 0 0;
+  border-radius: 0px;
 }
 
 .navbar-default {
-  background-color: #fff;
-  font-size:13px;
+  background-color: #0091C9;
+  font-size:15px;
+  border-color: #0091C9;
 }
 
 .navbar-brand{
-  font-size:14px;
+  font-size:18px;
+  color: #fff;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
 }
 
 .center-block{
@@ -99,11 +110,11 @@ hr {
 }
  
 #mimp-breadcrumbs .nav > li > a:hover, .nav > li > a:focus {
-background-color: #efefef;
+  background-color: #efefef;
 }
  
 #mimp-breadcrumbs .nav-pills > li > a {
-border-radius: 0px;
+  border-radius: 0px;
 }
  
 /* MIMP NAV BLOCKS */
@@ -162,7 +173,10 @@ border-radius: 0px;
 }
  
 /* MIMP CAROUSEL */
- 
+
+#mimp-carousel{
+  margin-top: 15px;
+}
  
 #mimp-carousel .nav > li > a {
 	color: white;
@@ -370,6 +384,7 @@ background-color: #000;
     display: none;
   }
 }
+
 
 /*
  * WORDPRESS OVERRIDES
