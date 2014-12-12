@@ -38,29 +38,65 @@ Template Name: Service home page
         
         <script>
           jQuery(document).ready(function() {
-            jQuery("table.sieve").sieve();
-            jQuery("#mimp-service-sieve > div > div > div > div").addClass('this-class');
+            jQuery("section.sieve").sieve({ itemSelector: "article" });
             }); 
         </script>
+        
+        <section class="sieve">
+          <article>
+            <div class="row" id="mimp-service-link-header">
+              <a role="button" data-toggle="collapse" data-target="#placeholder"> <h1 class="mimp-brand-heading"> Title of service <i class="fa fa-sort fa-2x"></i></h1>
+              </a>
+            </div>
+    
+            <div class="row">
 
-          <!-- Table -->
-          <table class="table sieve">
-            <thead>
-              <tr>
-                <th><a href="#">Commercial Services</a></th>
-                <th><a href="#">Imaging Services</a></th>
-                <th><a href="#">Scientific Services</a></th>
-                <th><a href="#">Departments</a></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr><td><a href="#">Zachary Taylor</a></td><td>Barboursville, Virginia</td><td>Richard Nixon</td><td>Yorba Linda, California</td></tr>
-              <tr><td>Warren G. Harding</td><td>Blooming Grove, Ohio</td><td>Rutherford B. Hayes</td><td>Delaware, Ohio</td></tr>
-              <tr><td>John Quincy Adams</td><td>Braintree, Massachusetts</td><td>Rutherford B. Hayes</td><td>Delaware, Ohio</td></tr>
-              <tr><td>John F. Kennedy</td><td>Brookline, Massachusetts</td><td>Rutherford B. Hayes</td><td>Delaware, Ohio</td></tr>
-              <tr><td>Grover Cleveland</td><td>Caldwell, New Jersey</td><td>Rutherford B. Hayes</td><td>Delaware, Ohio</td></tr>
-            </tbody>
-          </table>
+            <div id="placeholder" class="in">
+              <div class="col-md-8">
+                <div class="panel panel-default">
+                  <div class="panel-heading">Service Information</div>
+                  <div class="panel-body">
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit</p>
+                  <a href="#" class="btn btn-mimp">Further Information about this service</a>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">Treatments &amp; Services</div>
+                  <div class="panel-body">
+                    <a href="#" class="btn btn-info btn-sm">treatment</a>
+                    <a href="#" class="btn btn-success btn-sm">procedure</a>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">Our Team</div>
+                  <div class="panel-body">
+                    <p>Our team of staff somethingsomethings and dodad dodads are specially trained in ...  and ...</p>
+                    <a href="#" class="btn btn-success btn-sm">Meet our team</a>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-md-4">
+                <img src="http://placehold.it/350x350" alt="" class="img-responsive mimp-service-link-img invisible-xs">
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">Contact</div>
+                  <div class="panel-body">
+                    <strong>Phone:</strong> placeholder<br>
+                    <strong>Email:</strong> placeholder<br>
+                    <strong>Address:</strong> placeholder<br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+
         
       </div>
     </div>

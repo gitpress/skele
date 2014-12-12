@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: 'Montserrat', Arial, sans-serif;
 }
 
+.light-text {
+  color: #fff;
+}
+
 .navbar {
   border-width:0 0 0 0;
   border-radius: 0px;
@@ -755,6 +759,19 @@ hr.brand-hr {
 
 #mimp-contact-section {
   margin-bottom: 45px;
+}
+
+/* ****************************
+ * 
+ *  *****************************/
+
+#mimp-service-link-header {
+	padding: 15px;
+}
+
+.mimp-service-link-img {
+	margin-bottom: 5px;
+  max-height: 350px;
 }
 
 /* *****************************
