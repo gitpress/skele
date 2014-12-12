@@ -773,9 +773,19 @@ hr.brand-hr {
   text-decoration:  none;
 }
 
+#mimp-service-link-header .mimp-brand-heading {
+  border-bottom: 5px solid #02709B;
+  
+}
+
+#mimp-service-link-header .fa {
+  font-size: 20px;
+  margin-top: 7px;
+}
+
 .mimp-service-link-img {
 	margin-bottom: 5px;
-  max-height: 350px;
+  max-height: 370px;
 }
 
 h1.mimp-brand-heading:hover{
@@ -787,3 +797,5 @@ h1.mimp-brand-heading:hover{
   padding-right: 5px;
   padding-top: 3.5px;
 }
+
+

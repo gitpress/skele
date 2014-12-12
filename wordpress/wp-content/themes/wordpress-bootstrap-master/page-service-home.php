@@ -28,7 +28,7 @@ Template Name: Service home page
 <div id="mimp-service-sieve">
   <div class="container" id="A-Z">
     <div class="row">
-      <div class="col-md-10 col-md-offset-1">
+      <div class="col-md-12">
         <div class="row">
               <div class="col-md-8 col-md-offset-2">
                 <h1 class="section-header">A-Z Service Directory</h1>
@@ -80,7 +80,7 @@ Template Name: Service home page
               </div>
 
               <div class="col-md-4">
-                <img src="http://placehold.it/350x350" alt="" class="img-responsive mimp-service-link-img invisible-xs">
+                <img src="http://placehold.it/370x370" alt="" class="img-responsive mimp-service-link-img invisible-xs">
 
                 <div class="panel panel-default">
                   <div class="panel-heading">Contact</div>
