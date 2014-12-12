@@ -769,23 +769,21 @@ hr.brand-hr {
 	padding: 15px;
 }
 
+#mimp-service-link-header a:hover {
+  text-decoration:  none;
+}
+
 .mimp-service-link-img {
 	margin-bottom: 5px;
   max-height: 350px;
 }
 
-/* *****************************
-*  FONT AWESOME OVERRIDES
-*********************************/
-
-.fa{
-  color: #0091C9;
+h1.mimp-brand-heading:hover{
+  background-color: #28B4EB;
+  text-decoration: none;
 }
 
-.gold{
-  color: goldenrod;
-}
-
-.silver{
-  color:silver;
+.fa-sort {
+  padding-right: 5px;
+  padding-top: 3.5px;
 }

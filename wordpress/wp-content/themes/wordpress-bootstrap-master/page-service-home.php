@@ -45,7 +45,7 @@ Template Name: Service home page
         <section class="sieve">
           <article>
             <div class="row" id="mimp-service-link-header">
-              <a role="button" data-toggle="collapse" data-target="#placeholder"> <h1 class="mimp-brand-heading"> Title of service <i class="fa fa-sort fa-2x"></i></h1>
+              <a role="button" data-toggle="collapse" data-target="#placeholder"> <h1 class="mimp-brand-heading"> Title of service <i class="fa fa-sort light-text pull-right"></i></h1>
               </a>
             </div>
     
