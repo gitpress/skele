@@ -24,6 +24,7 @@ class WPDB_Admin {
 		
 	}
 	function wp_db_backup_admin_init() {
+		if(is_admin()){
 
 	        if(isset($_POST['wp_db_backup_email_id']))
 		 {
@@ -35,7 +36,7 @@ class WPDB_Admin {
 		   $email_attachment=$_POST['wp_db_backup_email_attachment'];
 		   update_option('wp_db_backup_email_attachment',$email_attachment);
 		  }
-		   if(($_GET['page']=="wp-database-backup" && $_GET['action']=="unlink")) 
+		   if(($_GET['page']=="wp-database-backup" && isset($_GET['action']) && $_GET['action']=="unlink")) 
 		   {
 		     // Specify the target directory and add forward slash
            $dir = plugin_dir_path(__FILE__)."Destination/Dropbox/tokens/"; 
@@ -54,7 +55,7 @@ class WPDB_Admin {
                 wp_redirect(get_bloginfo('url').'/wp-admin/tools.php?page=wp-database-backup');
 		   	
 		   }
-	        if(isset($_GET['action'])) {
+	        if(isset($_GET['action']) && current_user_can('manage_options')) {
 		switch((string)$_GET['action']) {
  
 			case 'createdbbackup':
@@ -149,6 +150,7 @@ class WPDB_Admin {
 	
 	register_setting('wp_db_backup_options', 'wp_db_backup_options', array( $this,'wp_db_backup_validate'));
     @add_settings_section('wp_db_backup_main', '', 'wp_db_backup_section_text', array( $this,'wp-database-backup'));
+}
 }
 function wp_db_backup_validate($input) {	
 	return $input;

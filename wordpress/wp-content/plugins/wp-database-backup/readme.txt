@@ -69,6 +69,9 @@ Refer to the for <a href="http://walkeprashant.wordpress.com/wp-database-backup/
 = 2.1.2 = 
 *Fixed Dropbox issue ( it saves me a "backup" that weight 0KB.)
 
+= 2.1.3 = 
+*Fixed Vulnerability
+
 == Frequently Asked Questions ==
 
  Q-How to  create database Backup?
