@@ -43,57 +43,58 @@ Template Name: Service home page
         </script>
         
         <section class="sieve">
-          <article>
-            <div class="row" id="mimp-service-link-header">
-              <a role="button" data-toggle="collapse" data-target="#placeholder"> <h1 class="mimp-brand-heading"> Title of service <i class="fa fa-sort light-text pull-right"></i></h1>
-              </a>
-            </div>
-    
-            <div class="row">
+         
+          <!-- FIND DEPARTMENT TAGGED POSTS -->
+          <?php
+                    // WP_Query arguments
+          $args = array (
+            'category_name'          => 'Department',
+            'order'                  => 'ASC',
+            'orderby'                => 'title',
+          );
 
-            <div id="placeholder" class="in">
-              <div class="col-md-8">
-                <div class="panel panel-default">
-                  <div class="panel-heading">Service Information</div>
-                  <div class="panel-body">
-                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit</p>
-                  <a href="#" class="btn btn-mimp">Further Information about this service</a>
-                  </div>
-                </div>
+          // The Query
+          $get_departments = new WP_Query( $args );
 
-                <div class="panel panel-default">
-                  <div class="panel-heading">Treatments &amp; Services</div>
-                  <div class="panel-body">
-                    <a href="#" class="btn btn-info btn-sm">treatment</a>
-                    <a href="#" class="btn btn-success btn-sm">procedure</a>
-                  </div>
-                </div>
+          // The Loop
+          if ( $get_departments->have_posts() ) {
+            while ( $get_departments->have_posts() ) {
+              $get_departments->the_post();
+              the_content();
+            }
+          } else {
+            // no posts found
+          }
 
-                <div class="panel panel-default">
-                  <div class="panel-heading">Our Team</div>
-                  <div class="panel-body">
-                    <p>Our team of staff somethingsomethings and dodad dodads are specially trained in ...  and ...</p>
-                    <a href="#" class="btn btn-success btn-sm">Meet our team</a>
-                  </div>
-                </div>
+          // Restore original Post Data
+          wp_reset_postdata(); ?>
+          
+          <!-- FIND SERVICE TAGGED POSTS -->
+          <?php
+                    // WP_Query arguments
+          $args = array (
+            'category_name'          => 'Service',
+            'order'                  => 'ASC',
+            'orderby'                => 'title',
+          );
 
-              </div>
+          // The Query
+          $get_services = new WP_Query( $args );
 
-              <div class="col-md-4">
-                <img src="http://placehold.it/370x370" alt="" class="img-responsive mimp-service-link-img invisible-xs">
+          // The Loop
+          if ( $get_services->have_posts() ) {
+            while ( $get_services->have_posts() ) {
+              $get_services->the_post();
+              the_content();
+            }
+          } else {
+            // no posts found
+          }
 
-                <div class="panel panel-default">
-                  <div class="panel-heading">Contact</div>
-                  <div class="panel-body">
-                    <strong>Phone:</strong> placeholder<br>
-                    <strong>Email:</strong> placeholder<br>
-                    <strong>Address:</strong> placeholder<br>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
+          // Restore original Post Data
+          wp_reset_postdata(); ?>
+          
+          
       </section>
 
 

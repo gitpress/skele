@@ -143,6 +143,8 @@ function wp_bootstrap_register_sidebars() {
     */
 } // don't remove this bracket!
 
+
+
 /************* COMMENT LAYOUT *********************/
 		
 // Comment Layout
