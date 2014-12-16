@@ -109,19 +109,9 @@ Template Name: Conditions
               </div>
         </div>        
         
-        <div class="row">
+        <div class="row">        
           <ul class="nav nav-pills nav-stacked text-center">
-            <li role="presentation" class=""><a href="#">Treatment</a></li>
-            <li role="presentation"><a href="#">Condition</a></li>
-            <li role="presentation"><a href="#">Treatment</a></li>
-            <li role="presentation"><a href="#">Condition</a></li>
-            <li role="presentation"><a href="#">Treatment</a></li>
-            <li role="presentation"><a href="#">Condition</a></li>
-            <li role="presentation"><a href="#">Treatment</a></li>
-            <li role="presentation"><a href="#">Condition</a></li>
-            <li role="presentation"><a href="#">Treatment</a></li>
-            <li role="presentation"><a href="#">Condition</a></li>
-            <li role="presentation"><a href="#">Treatment</a></li>
+           <?php echo do_shortcode( "[display-posts category='condition, treatment']" ) ?> 
           </ul>
           
         </div>

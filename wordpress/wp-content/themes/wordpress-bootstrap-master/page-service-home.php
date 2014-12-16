@@ -28,10 +28,10 @@ Template Name: Service home page
 <div id="mimp-service-sieve">
   <div class="container" id="A-Z">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-8">
         <div class="row">
               <div class="col-md-8 col-md-offset-2">
-                <h1 class="section-header">A-Z Service Directory</h1>
+                <h1 class="section-header">Department &amp; Service Directory</h1>
                 <hr class="brand-hr">
               </div>
         </div> 
@@ -98,6 +98,50 @@ Template Name: Service home page
       </section>
 
 
+        
+      </div>
+      
+      <div class="col-md-4">
+        
+        <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <h1 class="section-header">Departments</h1>
+                <hr class="brand-hr">
+              </div>
+        </div>
+        
+        <div class="row">
+          <ul class="nav nav-pills nav-stacked text-center">
+            <li role="presentation"><a href="<?php echo get_site_url() . "/departments/audiological-science/"; ?>">Audiological Science</a></li>
+            <li role="presentation"><a href="<?php echo get_site_url() . "/departments/medical-physics-clinical-engineering/"; ?>">Medical Physics &amp; Clinical Engineering</a></li>
+            <li role="presentation"><a href="<?php echo get_site_url() . "/departments/radiology/"; ?>">Radiology</a></li>
+            <li role="presentation"><a href="<?php echo get_site_url() . "/training/"; ?>">Training</a></li>
+          </ul>
+        </div>
+        
+        <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <h1 class="section-header">Service A-Z</h1>
+                <hr class="brand-hr">
+              </div>
+        </div>        
+        
+        <div class="row">
+          <ul class="nav nav-pills nav-stacked text-center">
+            <li role="presentation" class=""><a href="#">Treatment</a></li>
+            <li role="presentation"><a href="#">Condition</a></li>
+            <li role="presentation"><a href="#">Treatment</a></li>
+            <li role="presentation"><a href="#">Condition</a></li>
+            <li role="presentation"><a href="#">Treatment</a></li>
+            <li role="presentation"><a href="#">Condition</a></li>
+            <li role="presentation"><a href="#">Treatment</a></li>
+            <li role="presentation"><a href="#">Condition</a></li>
+            <li role="presentation"><a href="#">Treatment</a></li>
+            <li role="presentation"><a href="#">Condition</a></li>
+            <li role="presentation"><a href="#">Treatment</a></li>
+          </ul>
+        </div>
+        
         
       </div>
     </div>

@@ -783,6 +783,14 @@ hr.brand-hr {
   margin-top: 7px;
 }
 
+ul.display-posts-listing {
+    list-style-type: none;
+    padding: 0;
+}
+a.title {
+  font-size: 18px;
+}
+
 .mimp-service-link-img {
 	margin-bottom: 5px;
   max-height: 370px;
